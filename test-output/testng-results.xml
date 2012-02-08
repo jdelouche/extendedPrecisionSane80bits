@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="44" passed="44">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="474" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="474" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+      <class name="ieee754.saneExtendedPrecision.testSANE">
+        <test-method status="PASS" signature="float1()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float1" duration-ms="17" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="float11127()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float11127" duration-ms="3" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="float11127toBinaryString()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float11127toBinaryString" duration-ms="2" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="float2()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float2" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="float22255()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float22255" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="float32000()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float32000" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="float44100()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float44100" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="float48000()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float48000" duration-ms="2" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="float8000()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float8000" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="floatHalf()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="floatHalf" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="floatInfinity()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="floatInfinity" duration-ms="0" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="floatMinus1()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="floatMinus1" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="floatMinus11127toBinaryString()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="floatMinus11127toBinaryString" duration-ms="46" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="floatMinus22255()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="floatMinus22255" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="floatMinusInfinity()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="floatMinusInfinity" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="floatNegativeNotaNumber()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="floatNegativeNotaNumber" duration-ms="2" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="floatNegativeZero()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="floatNegativeZero" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="floatNotaNumber()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="floatNotaNumber" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="floatPI()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="floatPI" duration-ms="0" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="floatPositiveZero()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="floatPositiveZero" duration-ms="0" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="floatThreeQuarter()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="floatThreeQuarter" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="float_64bits0()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float_64bits0" duration-ms="6" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="float_64bits01()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float_64bits01" duration-ms="2" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="float_64bits1()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float_64bits1" duration-ms="2" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="float_64bits16()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float_64bits16" duration-ms="0" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="float_64bits1to100()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float_64bits1to100" duration-ms="274" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="float_64bits2()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float_64bits2" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="float_64bits3()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float_64bits3" duration-ms="2" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="float_64bits4()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float_64bits4" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="float_64bitsNaN()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float_64bitsNaN" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="float_64bitsPI()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float_64bitsPI" duration-ms="2" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="toFloat1()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="toFloat1" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="toFloat11127()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="toFloat11127" duration-ms="0" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="toFloat11127Decoder()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="toFloat11127Decoder" duration-ms="0" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="toFloat1point5()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="toFloat1point5" duration-ms="0" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="toFloat2()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="toFloat2" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="toFloat48000()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="toFloat48000" duration-ms="0" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="toFloat8000()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="toFloat8000" duration-ms="0" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="toFloatInfinity()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="toFloatInfinity" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="toFloatMinus1()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="toFloatMinus1" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="toFloatMinus11127Decoder()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="toFloatMinus11127Decoder" duration-ms="0" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="toFloatNaN()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="toFloatNaN" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="toFloatNegative48000()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="toFloatNegative48000" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+        <test-method status="PASS" signature="toFloatNegativeInfinity()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="toFloatNegativeInfinity" duration-ms="0" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
