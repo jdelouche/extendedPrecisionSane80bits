@@ -1,0 +1,5 @@
+<aop>
+   <bind pointcut="execution(public void org.sane80bits.converter.saneExtendedPrecision.tests.*->*(..))">
+       <interceptor class="org.sane80bits.converter.saneExtendedPrecision.tests.aop.TestSane80bitsInterceptor"/>
+   </bind>
+</aop>

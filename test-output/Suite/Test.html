@@ -1,0 +1,294 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>43/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Feb 10 23:47:34 CET 2012</td>
+</tr>
+<tr><td>Total time:</td><td>2 seconds (2049 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray.double11127toSane80bitsByteArray()'><b>double11127toSane80bitsByteArray</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray<br>Test method: double -11127 to sane80bits byte array</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray.double1point5toByteArray()'><b>double1point5toByteArray</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray<br>Test method: double 1.5 to sane80bits byte array</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray.double2toByteArray()'><b>double2toByteArray</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray<br>Test method: double 2 to sane80bits byte array</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray.double48000toSane80bitsByteArray()'><b>double48000toSane80bitsByteArray</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray<br>Test method: double 48000 to sane80bits byte array</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray.double8000toByteArray()'><b>double8000toByteArray</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray<br>Test method: double 8000 to sane80bits byte array</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray.doubleHalfToSane80bitsByteArray()'><b>doubleHalfToSane80bitsByteArray</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray<br>Test method: double 0.5 to sane80bits byte array</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray.doubleInfinityToSane80bitsByteArray()'><b>doubleInfinityToSane80bitsByteArray</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray<br>Test method: double poitive infinity to sane80bits byte array</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray.doubleMinus1toByteArray()'><b>doubleMinus1toByteArray</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray<br>Test method: double -1 to sane80bits byte array</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray.doubleNaNtoSane80bitsByteArray()'><b>doubleNaNtoSane80bitsByteArray</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray<br>Test method: double NaN to sane80bits byte array</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray.doubleNegative48000toSane80bitsByteArray()'><b>doubleNegative48000toSane80bitsByteArray</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray<br>Test method: double 48000 to sane80bits byte array</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray.doubleNegativeInfinityToSane80bitsByteArray()'><b>doubleNegativeInfinityToSane80bitsByteArray</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray<br>Test method: double negative infinity to sane80bits byte array</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray.doubleOneToSane80bitsByteArray()'><b>doubleOneToSane80bitsByteArray</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray<br>Test method: double 1 to sane80bits byte array</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray.doubleTo11127toSane80bitsByteArray()'><b>doubleTo11127toSane80bitsByteArray</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray<br>Test method: double 11127 to sane80bits byte array</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits.nullConversion64bits0()'><b>nullConversion64bits0</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits<br>Test method: null conversion 0 to double</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits.nullConversion64bits01()'><b>nullConversion64bits01</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits<br>Test method: null conversion 0.1 to double</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits.nullConversion64bits1()'><b>nullConversion64bits1</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits<br>Test method: null conversion 1 to double</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits.nullConversion64bits16()'><b>nullConversion64bits16</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits<br>Test method: null conversion 16 to double</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits.nullConversion64bits1to100()'><b>nullConversion64bits1to100</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits<br>Test method: null conversion fro; 1 to 100 to double</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits.nullConversion64bits2()'><b>nullConversion64bits2</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits<br>Test method: null conversion -22255 to double</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits.nullConversion64bits3()'><b>nullConversion64bits3</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits<br>Test method: null conversion 3 to double</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits.nullConversion64bits4()'><b>nullConversion64bits4</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits<br>Test method: null conversion 4 to double</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits.nullConversion64bitsNaN()'><b>nullConversion64bitsNaN</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits<br>Test method: null conversion NaN to double</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits.nullConversion64bitsPI()'><b>nullConversion64bitsPI</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits<br>Test method: null conversion PI to double</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble.sane80bits2toSane80bitsDouble()'><b>sane80bits2toSane80bitsDouble</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble<br>Test method: byte array sane80bits 2.0 to double</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble.sane80bitsByteArayThreeQuarterToDouble()'><b>sane80bitsByteArayThreeQuarterToDouble</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble<br>Test method: byte array sane80bits 3/4 to double</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble.sane80bitsByteArray11127toBinaryString()'><b>sane80bitsByteArray11127toBinaryString</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble<br>Test method: byte array sane80bits 22255 to binary string</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble.sane80bitsByteArray11127toDouble()'><b>sane80bitsByteArray11127toDouble</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble<br>Test method: byte array sane80bits 11127 to double</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble.sane80bitsByteArray1ToDouble()'><b>sane80bitsByteArray1ToDouble</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble<br>Test method: byte array 80bits one to double</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble.sane80bitsByteArray22255toDouble()'><b>sane80bitsByteArray22255toDouble</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble<br>Test method: byte array sane80bits 22255 to double</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble.sane80bitsByteArray32000toDouble()'><b>sane80bitsByteArray32000toDouble</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble<br>Test method: byte array sane80bits 32000 to double</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble.sane80bitsByteArray44100toDouble()'><b>sane80bitsByteArray44100toDouble</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble<br>Test method: byte array sane80bits 44100 to double</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble.sane80bitsByteArray48000toDouble()'><b>sane80bitsByteArray48000toDouble</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble<br>Test method: byte array sane80bits 48000 to double</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble.sane80bitsByteArray8000toDouble()'><b>sane80bitsByteArray8000toDouble</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble<br>Test method: byte array sane80bits 8000 to double</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble.sane80bitsByteArrayHalftoDouble()'><b>sane80bitsByteArrayHalftoDouble</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble<br>Test method: byte array sane80bits 0.5 to double</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble.sane80bitsByteArrayInfinityToDouble()'><b>sane80bitsByteArrayInfinityToDouble</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble<br>Test method: byte array 80bits infinity to double</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble.sane80bitsByteArrayMinus11127toBinaryString()'><b>sane80bitsByteArrayMinus11127toBinaryString</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble<br>Test method: byte array sane80bits 11127 to binary string</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble.sane80bitsByteArrayMinus1toDouble()'><b>sane80bitsByteArrayMinus1toDouble</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble<br>Test method: byte array sane80bits -1.0 to double</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble.sane80bitsByteArrayMinus22255()'><b>sane80bitsByteArrayMinus22255</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble<br>Test method: byte array sane80bits -22255 to double</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble.sane80bitsByteArrayMinusInfinityToDouble()'><b>sane80bitsByteArrayMinusInfinityToDouble</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble<br>Test method: byte array 80bits negative infintiy to double</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble.sane80bitsByteArrayNegativeNotaNumberToDouble()'><b>sane80bitsByteArrayNegativeNotaNumberToDouble</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble<br>Test method: byte array 80bits negative NaN to double</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble.sane80bitsByteArrayNegativeZeroToDouble()'><b>sane80bitsByteArrayNegativeZeroToDouble</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble<br>Test method: byte array 80bits negative zero to double</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble.sane80bitsByteArrayNotaNumberToDouble()'><b>sane80bitsByteArrayNotaNumberToDouble</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble<br>Test method: byte array 80bits NaN to double</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca</td></tr>
+<tr>
+<td title='org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble.sane80bitsByteArrayPositiveZeroToDouble()'><b>sane80bitsByteArrayPositiveZeroToDouble</b><br>Test class: org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble<br>Test method: byte array 80bits zero to double</td>
+<td></td>
+<td>0</td>
+<td>org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca</td></tr>
+</table><p>
+</body>
+</html>

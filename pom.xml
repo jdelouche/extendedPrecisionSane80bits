@@ -1,10 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.agilet.math</groupId>
-  <artifactId>extendedDoubleConverter</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
-  <name>extendedDoubleConverter</name>
-  <description>Extended Double Converter IEE754</description>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>sane80bitsConverter</artifactId>
+	<version>0.0.2-SNAPSHOT</version>
+	<name>Sane80BitsConverter</name>
+	<description>Sane80 bits conversion to double java 64 bits</description>
 	<dependencies>
 		<dependency>
 			<groupId>org.testng</groupId>
@@ -27,4 +27,19 @@
 			<version>0.9.29</version>
 		</dependency>
 	</dependencies>
+	<developers>
+		<developer>
+			<id>jpd</id>
+			<name>Jean-Pierre</name>
+			<roles>
+				<role>developer</role>
+				<role>tester</role>
+			</roles>
+			<timezone></timezone>
+		</developer>
+	</developers>
+	<groupId>org.sane80bits</groupId>
+	<organization>
+		<name>Jean-Pierre Delouche</name>
+	</organization>
 </project>

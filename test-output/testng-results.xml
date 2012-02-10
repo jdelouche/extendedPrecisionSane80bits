@@ -1,99 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="44" passed="44">
+<testng-results skipped="0" failed="0" total="43" passed="43">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="474" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+  <suite name="Suite" duration-ms="2049" started-at="2012-02-10T23:47:34Z" finished-at="2012-02-10T23:47:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="474" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
-      <class name="ieee754.saneExtendedPrecision.testSANE">
-        <test-method status="PASS" signature="float1()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float1" duration-ms="17" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+    <test name="Test" duration-ms="2049" started-at="2012-02-10T23:47:34Z" finished-at="2012-02-10T23:47:36Z">
+      <class name="org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits">
+        <test-method status="PASS" signature="nullConversion64bits0()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb]" name="nullConversion64bits0" duration-ms="15" started-at="2012-02-10T23:47:34Z" description="null conversion 0 to double" finished-at="2012-02-10T23:47:34Z">
         </test-method>
-        <test-method status="PASS" signature="float11127()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float11127" duration-ms="3" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="nullConversion64bits01()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb]" name="nullConversion64bits01" duration-ms="41" started-at="2012-02-10T23:47:34Z" description="null conversion 0.1 to double" finished-at="2012-02-10T23:47:34Z">
         </test-method>
-        <test-method status="PASS" signature="float11127toBinaryString()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float11127toBinaryString" duration-ms="2" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="nullConversion64bits1()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb]" name="nullConversion64bits1" duration-ms="30" started-at="2012-02-10T23:47:34Z" description="null conversion 1 to double" finished-at="2012-02-10T23:47:34Z">
         </test-method>
-        <test-method status="PASS" signature="float2()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float2" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="nullConversion64bits16()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb]" name="nullConversion64bits16" duration-ms="56" started-at="2012-02-10T23:47:34Z" description="null conversion 16 to double" finished-at="2012-02-10T23:47:35Z">
         </test-method>
-        <test-method status="PASS" signature="float22255()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float22255" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="nullConversion64bits1to100()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb]" name="nullConversion64bits1to100" duration-ms="279" started-at="2012-02-10T23:47:35Z" description="null conversion fro; 1 to 100 to double" finished-at="2012-02-10T23:47:35Z">
         </test-method>
-        <test-method status="PASS" signature="float32000()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float32000" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="nullConversion64bits2()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb]" name="nullConversion64bits2" duration-ms="52" started-at="2012-02-10T23:47:35Z" description="null conversion -22255 to double" finished-at="2012-02-10T23:47:35Z">
         </test-method>
-        <test-method status="PASS" signature="float44100()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float44100" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="nullConversion64bits3()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb]" name="nullConversion64bits3" duration-ms="58" started-at="2012-02-10T23:47:35Z" description="null conversion 3 to double" finished-at="2012-02-10T23:47:35Z">
         </test-method>
-        <test-method status="PASS" signature="float48000()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float48000" duration-ms="2" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="nullConversion64bits4()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb]" name="nullConversion64bits4" duration-ms="36" started-at="2012-02-10T23:47:35Z" description="null conversion 4 to double" finished-at="2012-02-10T23:47:35Z">
         </test-method>
-        <test-method status="PASS" signature="float8000()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float8000" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="nullConversion64bitsNaN()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb]" name="nullConversion64bitsNaN" duration-ms="48" started-at="2012-02-10T23:47:35Z" description="null conversion NaN to double" finished-at="2012-02-10T23:47:35Z">
         </test-method>
-        <test-method status="PASS" signature="floatHalf()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="floatHalf" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="nullConversion64bitsPI()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb]" name="nullConversion64bitsPI" duration-ms="129" started-at="2012-02-10T23:47:35Z" description="null conversion PI to double" finished-at="2012-02-10T23:47:35Z">
         </test-method>
-        <test-method status="PASS" signature="floatInfinity()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="floatInfinity" duration-ms="0" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+      </class>
+      <class name="org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray">
+        <test-method status="PASS" signature="double11127toSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f]" name="double11127toSane80bitsByteArray" duration-ms="88" started-at="2012-02-10T23:47:35Z" description="double -11127 to sane80bits byte array" finished-at="2012-02-10T23:47:35Z">
         </test-method>
-        <test-method status="PASS" signature="floatMinus1()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="floatMinus1" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="double1point5toByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f]" name="double1point5toByteArray" duration-ms="26" started-at="2012-02-10T23:47:35Z" description="double 1.5 to sane80bits byte array" finished-at="2012-02-10T23:47:35Z">
         </test-method>
-        <test-method status="PASS" signature="floatMinus11127toBinaryString()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="floatMinus11127toBinaryString" duration-ms="46" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="double2toByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f]" name="double2toByteArray" duration-ms="13" started-at="2012-02-10T23:47:35Z" description="double 2 to sane80bits byte array" finished-at="2012-02-10T23:47:35Z">
         </test-method>
-        <test-method status="PASS" signature="floatMinus22255()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="floatMinus22255" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="double48000toSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f]" name="double48000toSane80bitsByteArray" duration-ms="28" started-at="2012-02-10T23:47:35Z" description="double 48000 to sane80bits byte array" finished-at="2012-02-10T23:47:35Z">
         </test-method>
-        <test-method status="PASS" signature="floatMinusInfinity()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="floatMinusInfinity" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="double8000toByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f]" name="double8000toByteArray" duration-ms="19" started-at="2012-02-10T23:47:35Z" description="double 8000 to sane80bits byte array" finished-at="2012-02-10T23:47:35Z">
         </test-method>
-        <test-method status="PASS" signature="floatNegativeNotaNumber()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="floatNegativeNotaNumber" duration-ms="2" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="doubleHalfToSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f]" name="doubleHalfToSane80bitsByteArray" duration-ms="21" started-at="2012-02-10T23:47:35Z" description="double 0.5 to sane80bits byte array" finished-at="2012-02-10T23:47:35Z">
         </test-method>
-        <test-method status="PASS" signature="floatNegativeZero()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="floatNegativeZero" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="doubleInfinityToSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f]" name="doubleInfinityToSane80bitsByteArray" duration-ms="24" started-at="2012-02-10T23:47:35Z" description="double poitive infinity to sane80bits byte array" finished-at="2012-02-10T23:47:35Z">
         </test-method>
-        <test-method status="PASS" signature="floatNotaNumber()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="floatNotaNumber" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="doubleMinus1toByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f]" name="doubleMinus1toByteArray" duration-ms="14" started-at="2012-02-10T23:47:35Z" description="double -1 to sane80bits byte array" finished-at="2012-02-10T23:47:35Z">
         </test-method>
-        <test-method status="PASS" signature="floatPI()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="floatPI" duration-ms="0" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="doubleNaNtoSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f]" name="doubleNaNtoSane80bitsByteArray" duration-ms="32" started-at="2012-02-10T23:47:35Z" description="double NaN to sane80bits byte array" finished-at="2012-02-10T23:47:35Z">
         </test-method>
-        <test-method status="PASS" signature="floatPositiveZero()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="floatPositiveZero" duration-ms="0" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="doubleNegative48000toSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f]" name="doubleNegative48000toSane80bitsByteArray" duration-ms="21" started-at="2012-02-10T23:47:35Z" description="double 48000 to sane80bits byte array" finished-at="2012-02-10T23:47:36Z">
         </test-method>
-        <test-method status="PASS" signature="floatThreeQuarter()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="floatThreeQuarter" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="doubleNegativeInfinityToSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f]" name="doubleNegativeInfinityToSane80bitsByteArray" duration-ms="13" started-at="2012-02-10T23:47:36Z" description="double negative infinity to sane80bits byte array" finished-at="2012-02-10T23:47:36Z">
         </test-method>
-        <test-method status="PASS" signature="float_64bits0()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float_64bits0" duration-ms="6" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="doubleOneToSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f]" name="doubleOneToSane80bitsByteArray" duration-ms="12" started-at="2012-02-10T23:47:36Z" description="double 1 to sane80bits byte array" finished-at="2012-02-10T23:47:36Z">
         </test-method>
-        <test-method status="PASS" signature="float_64bits01()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float_64bits01" duration-ms="2" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="doubleTo11127toSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f]" name="doubleTo11127toSane80bitsByteArray" duration-ms="33" started-at="2012-02-10T23:47:36Z" description="double 11127 to sane80bits byte array" finished-at="2012-02-10T23:47:36Z">
         </test-method>
-        <test-method status="PASS" signature="float_64bits1()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float_64bits1" duration-ms="2" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+      </class>
+      <class name="org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble">
+        <test-method status="PASS" signature="sane80bits2toSane80bitsDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bits2toSane80bitsDouble" duration-ms="147" started-at="2012-02-10T23:47:34Z" description="byte array sane80bits 2.0 to double" finished-at="2012-02-10T23:47:34Z">
         </test-method>
-        <test-method status="PASS" signature="float_64bits16()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float_64bits16" duration-ms="0" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="sane80bitsByteArayThreeQuarterToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArayThreeQuarterToDouble" duration-ms="13" started-at="2012-02-10T23:47:34Z" description="byte array sane80bits 3/4 to double" finished-at="2012-02-10T23:47:34Z">
         </test-method>
-        <test-method status="PASS" signature="float_64bits1to100()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float_64bits1to100" duration-ms="274" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="sane80bitsByteArray11127toBinaryString()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArray11127toBinaryString" duration-ms="22" started-at="2012-02-10T23:47:34Z" description="byte array sane80bits 22255 to binary string" finished-at="2012-02-10T23:47:34Z">
         </test-method>
-        <test-method status="PASS" signature="float_64bits2()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float_64bits2" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="sane80bitsByteArray11127toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArray11127toDouble" duration-ms="21" started-at="2012-02-10T23:47:34Z" description="byte array sane80bits 11127 to double" finished-at="2012-02-10T23:47:34Z">
         </test-method>
-        <test-method status="PASS" signature="float_64bits3()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float_64bits3" duration-ms="2" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="sane80bitsByteArray1ToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArray1ToDouble" duration-ms="34" started-at="2012-02-10T23:47:34Z" description="byte array 80bits one to double" finished-at="2012-02-10T23:47:34Z">
         </test-method>
-        <test-method status="PASS" signature="float_64bits4()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float_64bits4" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="sane80bitsByteArray22255toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArray22255toDouble" duration-ms="17" started-at="2012-02-10T23:47:34Z" description="byte array sane80bits 22255 to double" finished-at="2012-02-10T23:47:34Z">
         </test-method>
-        <test-method status="PASS" signature="float_64bitsNaN()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float_64bitsNaN" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="sane80bitsByteArray32000toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArray32000toDouble" duration-ms="23" started-at="2012-02-10T23:47:34Z" description="byte array sane80bits 32000 to double" finished-at="2012-02-10T23:47:34Z">
         </test-method>
-        <test-method status="PASS" signature="float_64bitsPI()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="float_64bitsPI" duration-ms="2" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="sane80bitsByteArray44100toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArray44100toDouble" duration-ms="46" started-at="2012-02-10T23:47:34Z" description="byte array sane80bits 44100 to double" finished-at="2012-02-10T23:47:34Z">
         </test-method>
-        <test-method status="PASS" signature="toFloat1()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="toFloat1" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="sane80bitsByteArray48000toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArray48000toDouble" duration-ms="24" started-at="2012-02-10T23:47:34Z" description="byte array sane80bits 48000 to double" finished-at="2012-02-10T23:47:34Z">
         </test-method>
-        <test-method status="PASS" signature="toFloat11127()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="toFloat11127" duration-ms="0" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="sane80bitsByteArray8000toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArray8000toDouble" duration-ms="12" started-at="2012-02-10T23:47:34Z" description="byte array sane80bits 8000 to double" finished-at="2012-02-10T23:47:34Z">
         </test-method>
-        <test-method status="PASS" signature="toFloat11127Decoder()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="toFloat11127Decoder" duration-ms="0" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayHalftoDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArrayHalftoDouble" duration-ms="46" started-at="2012-02-10T23:47:34Z" description="byte array sane80bits 0.5 to double" finished-at="2012-02-10T23:47:34Z">
         </test-method>
-        <test-method status="PASS" signature="toFloat1point5()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="toFloat1point5" duration-ms="0" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayInfinityToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArrayInfinityToDouble" duration-ms="38" started-at="2012-02-10T23:47:34Z" description="byte array 80bits infinity to double" finished-at="2012-02-10T23:47:34Z">
         </test-method>
-        <test-method status="PASS" signature="toFloat2()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="toFloat2" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayMinus11127toBinaryString()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArrayMinus11127toBinaryString" duration-ms="14" started-at="2012-02-10T23:47:34Z" description="byte array sane80bits 11127 to binary string" finished-at="2012-02-10T23:47:34Z">
         </test-method>
-        <test-method status="PASS" signature="toFloat48000()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="toFloat48000" duration-ms="0" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayMinus1toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArrayMinus1toDouble" duration-ms="22" started-at="2012-02-10T23:47:34Z" description="byte array sane80bits -1.0 to double" finished-at="2012-02-10T23:47:34Z">
         </test-method>
-        <test-method status="PASS" signature="toFloat8000()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="toFloat8000" duration-ms="0" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayMinus22255()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArrayMinus22255" duration-ms="50" started-at="2012-02-10T23:47:34Z" description="byte array sane80bits -22255 to double" finished-at="2012-02-10T23:47:34Z">
         </test-method>
-        <test-method status="PASS" signature="toFloatInfinity()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="toFloatInfinity" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayMinusInfinityToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArrayMinusInfinityToDouble" duration-ms="48" started-at="2012-02-10T23:47:34Z" description="byte array 80bits negative infintiy to double" finished-at="2012-02-10T23:47:34Z">
         </test-method>
-        <test-method status="PASS" signature="toFloatMinus1()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="toFloatMinus1" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayNegativeNotaNumberToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArrayNegativeNotaNumberToDouble" duration-ms="50" started-at="2012-02-10T23:47:34Z" description="byte array 80bits negative NaN to double" finished-at="2012-02-10T23:47:34Z">
         </test-method>
-        <test-method status="PASS" signature="toFloatMinus11127Decoder()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="toFloatMinus11127Decoder" duration-ms="0" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayNegativeZeroToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArrayNegativeZeroToDouble" duration-ms="18" started-at="2012-02-10T23:47:34Z" description="byte array 80bits negative zero to double" finished-at="2012-02-10T23:47:34Z">
         </test-method>
-        <test-method status="PASS" signature="toFloatNaN()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="toFloatNaN" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayNotaNumberToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArrayNotaNumberToDouble" duration-ms="34" started-at="2012-02-10T23:47:34Z" description="byte array 80bits NaN to double" finished-at="2012-02-10T23:47:34Z">
         </test-method>
-        <test-method status="PASS" signature="toFloatNegative48000()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="toFloatNegative48000" duration-ms="1" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
-        </test-method>
-        <test-method status="PASS" signature="toFloatNegativeInfinity()[pri:0, instance:ieee754.saneExtendedPrecision.testSANE@70453807]" name="toFloatNegativeInfinity" duration-ms="0" started-at="2011-12-18T22:14:20Z" finished-at="2011-12-18T22:14:20Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayPositiveZeroToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArrayPositiveZeroToDouble" duration-ms="31" started-at="2012-02-10T23:47:34Z" description="byte array 80bits zero to double" finished-at="2012-02-10T23:47:34Z">
         </test-method>
       </class>
     </test>
