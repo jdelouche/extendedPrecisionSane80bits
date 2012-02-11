@@ -26,7 +26,7 @@ public class TestNullConversion64bits extends AbstractTestDefines {
 	}
 
 	@Test(description="null conversion 0.1 to double")
-	public void nullConversion64bits01() {
+	public void nullConversion64bits0point1() {
 	
 		Double test = 0.1;
 	
@@ -87,7 +87,7 @@ public class TestNullConversion64bits extends AbstractTestDefines {
 	@Test(description="null conversion fro; 1 to 100 to double")
 	public void nullConversion64bits1to100() {
 	
-		for (int test = 2; test <= 100; test++) {
+		for (int test = 1; test <= 100; test++) {
 	
 			Long integ = Double.doubleToRawLongBits(test);
 	

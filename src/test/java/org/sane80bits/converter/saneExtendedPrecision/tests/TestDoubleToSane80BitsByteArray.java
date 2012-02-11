@@ -57,6 +57,29 @@ public class TestDoubleToSane80BitsByteArray extends AbstractTestDefines {
 	
 	}
 
+	@Test(description="double 0.1 to sane80bits byte array")
+	public void double0point1toByteArray() {
+	
+		ExtendedPrecision decoder = new ExtendedPrecision80(1.5);
+	
+		byte[] b = new byte[10];
+		b[9] = (byte) 0x3f;
+		b[8] = (byte) 0xff;
+		b[7] = (byte) 0xc0;
+		b[6] = (byte) 0x00;
+		b[5] = (byte) 0x00;
+		b[4] = (byte) 0x00;
+		b[3] = (byte) 0x00;
+		b[2] = (byte) 0x00;
+		b[1] = (byte) 0x00;
+		b[0] = (byte) 0x00;
+	
+		showByteArray(b);
+	
+		assertEquals(b, decoder);
+	
+	}
+
 	@Test(description="double 2 to sane80bits byte array")
 	public void double2toByteArray() {
 	

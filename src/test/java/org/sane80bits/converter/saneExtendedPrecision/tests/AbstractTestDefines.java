@@ -1,15 +1,28 @@
 package org.sane80bits.converter.saneExtendedPrecision.tests;
 
+import java.io.PrintStream;
+
 import org.sane80bits.converter.model.ExtendedPrecision;
+import org.testng.Reporter;
 
 abstract public class AbstractTestDefines {
 
-	protected static final String displayFormatByteTable    = "%02d 0x%02x\n";
+	protected static final String displayFormatByteTable    = "%02d 0x%02x";
 	protected static final String SANE_80_BITS     = "SANE 80 bits => ";
 	protected static final String SANE_SIGNIFICAND = "SANE 80 bits significand ";
 	protected static final String SANE_EXPONENT    = "SANE 80 bits exponent    ";
 	protected static final String SANE_POSITIVE    = "SANE 80 bits positive    ";
 	protected static final String SANE_64_BITS     = "SANE  64 bits =>         ";
+	protected static final String SANE_80_BITS_BINARY_STRING = "80 bits BinaryString: ";
+	private PrintStream out=System.out;
+
+	public PrintStream getOut() {
+		return out;
+	}
+
+	public void setOut(PrintStream out) {
+		this.out = out;
+	}
 
 	public AbstractTestDefines() {
 		super();
@@ -24,16 +37,16 @@ abstract public class AbstractTestDefines {
 
 	protected void showByteArray(byte[] b) {
 		for (int i = b.length -1; i >= 0; i--) {
-			System.out.printf(displayFormatByteTable, i, b[i]);
+			log(String.format(displayFormatByteTable, i, b[i]));
 		}
 	}
 
 	protected void showSane64bits(ExtendedPrecision decoder) {
-		System.out.println(SANE_POSITIVE + decoder.isPositive());
-		System.out.println(SANE_EXPONENT + decoder.getExponentValue());
-		System.out.println(SANE_SIGNIFICAND
+		log(SANE_POSITIVE + decoder.isPositive());
+		log(SANE_EXPONENT + decoder.getExponentValue());
+		log(SANE_SIGNIFICAND
 				+ decoder.getSignificandValue());
-		System.out.println(SANE_64_BITS
+		log(SANE_64_BITS
 				+ decoder.getDoubleValue());
 	}
 
@@ -51,11 +64,22 @@ abstract public class AbstractTestDefines {
 	}
 
 	protected void showSane80bits(ExtendedPrecision decoder) {
-		System.out.println(SANE_POSITIVE + decoder.isPositive());
-		System.out.println(SANE_EXPONENT + decoder.getExponentValue());
-		System.out.println(SANE_SIGNIFICAND
+		log(SANE_POSITIVE + decoder.isPositive());
+		log(SANE_EXPONENT + decoder.getExponentValue());
+		log(SANE_SIGNIFICAND
 				+ decoder.getSignificandValue());
-		System.out.println(SANE_80_BITS + decoder.getDoubleValue());
+		log(SANE_80_BITS + decoder.getDoubleValue());
+	}
+
+	protected void showBinaryString(String string) {
+		
+		log(string);
+		
+	}
+
+	protected void log(String msg) {
+		out.println(msg);
+		Reporter.log(msg);
 	}
 
 }

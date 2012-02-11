@@ -1,101 +1,5485 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="43" passed="43">
+<testng-results skipped="0" failed="0" total="44" passed="44">
   <reporter-output>
+    <line>
+      <![CDATA[=> sane80bits2toSane80bitsDouble]]>
+    </line>
+    <line>
+      <![CDATA[09 0x40]]>
+    </line>
+    <line>
+      <![CDATA[08 0x00]]>
+    </line>
+    <line>
+      <![CDATA[07 0x00]]>
+    </line>
+    <line>
+      <![CDATA[06 0x00]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    1]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 0.0]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits => 2.0]]>
+    </line>
+    <line>
+      <![CDATA[=< sane80bits2toSane80bitsDouble time: 63ms]]>
+    </line>
+    <line>
+      <![CDATA[=> sane80bitsByteArayThreeQuarterToDouble]]>
+    </line>
+    <line>
+      <![CDATA[09 0x3f]]>
+    </line>
+    <line>
+      <![CDATA[08 0xfe]]>
+    </line>
+    <line>
+      <![CDATA[07 0xc0]]>
+    </line>
+    <line>
+      <![CDATA[06 0x00]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    -1]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits => 0.75]]>
+    </line>
+    <line>
+      <![CDATA[=< sane80bitsByteArayThreeQuarterToDouble time: 2ms]]>
+    </line>
+    <line>
+      <![CDATA[=> sane80bitsByteArray11127toBinaryString]]>
+    </line>
+    <line>
+      <![CDATA[09 0x40]]>
+    </line>
+    <line>
+      <![CDATA[08 0x0c]]>
+    </line>
+    <line>
+      <![CDATA[07 0xad]]>
+    </line>
+    <line>
+      <![CDATA[06 0xdc]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    13]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.3582763671875]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits => 11127.0]]>
+    </line>
+    <line>
+      <![CDATA[80 bits BinaryString: 01000000000011001010110111011100000000000000000000000000000000000000000000000000]]>
+    </line>
+    <line>
+      <![CDATA[=< sane80bitsByteArray11127toBinaryString time: 5ms]]>
+    </line>
+    <line>
+      <![CDATA[=> sane80bitsByteArray11127toDouble]]>
+    </line>
+    <line>
+      <![CDATA[09 0x40]]>
+    </line>
+    <line>
+      <![CDATA[08 0x0c]]>
+    </line>
+    <line>
+      <![CDATA[07 0xad]]>
+    </line>
+    <line>
+      <![CDATA[06 0xdc]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    13]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.3582763671875]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits => 11127.0]]>
+    </line>
+    <line>
+      <![CDATA[=< sane80bitsByteArray11127toDouble time: 3ms]]>
+    </line>
+    <line>
+      <![CDATA[=> sane80bitsByteArray1ToDouble]]>
+    </line>
+    <line>
+      <![CDATA[09 0x3f]]>
+    </line>
+    <line>
+      <![CDATA[08 0xff]]>
+    </line>
+    <line>
+      <![CDATA[07 0x80]]>
+    </line>
+    <line>
+      <![CDATA[06 0x00]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    0]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.0]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits => 1.0]]>
+    </line>
+    <line>
+      <![CDATA[=< sane80bitsByteArray1ToDouble time: 2ms]]>
+    </line>
+    <line>
+      <![CDATA[=> sane80bitsByteArray22255toDouble]]>
+    </line>
+    <line>
+      <![CDATA[09 0x40]]>
+    </line>
+    <line>
+      <![CDATA[08 0x0d]]>
+    </line>
+    <line>
+      <![CDATA[07 0xad]]>
+    </line>
+    <line>
+      <![CDATA[06 0xde]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    14]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.35833740234375]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits => 22255.0]]>
+    </line>
+    <line>
+      <![CDATA[=< sane80bitsByteArray22255toDouble time: 1ms]]>
+    </line>
+    <line>
+      <![CDATA[=> sane80bitsByteArray32000toDouble]]>
+    </line>
+    <line>
+      <![CDATA[09 0x40]]>
+    </line>
+    <line>
+      <![CDATA[08 0x0d]]>
+    </line>
+    <line>
+      <![CDATA[07 0xfa]]>
+    </line>
+    <line>
+      <![CDATA[06 0x00]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    14]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.953125]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits => 32000.0]]>
+    </line>
+    <line>
+      <![CDATA[=< sane80bitsByteArray32000toDouble time: 4ms]]>
+    </line>
+    <line>
+      <![CDATA[=> sane80bitsByteArray44100toDouble]]>
+    </line>
+    <line>
+      <![CDATA[09 0x40]]>
+    </line>
+    <line>
+      <![CDATA[08 0x0e]]>
+    </line>
+    <line>
+      <![CDATA[07 0xac]]>
+    </line>
+    <line>
+      <![CDATA[06 0x44]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    15]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.3458251953125]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits => 44100.0]]>
+    </line>
+    <line>
+      <![CDATA[=< sane80bitsByteArray44100toDouble time: 11ms]]>
+    </line>
+    <line>
+      <![CDATA[=> sane80bitsByteArray48000toDouble]]>
+    </line>
+    <line>
+      <![CDATA[09 0x40]]>
+    </line>
+    <line>
+      <![CDATA[08 0x0e]]>
+    </line>
+    <line>
+      <![CDATA[07 0xbb]]>
+    </line>
+    <line>
+      <![CDATA[06 0x80]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    15]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.46484375]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits => 48000.0]]>
+    </line>
+    <line>
+      <![CDATA[=< sane80bitsByteArray48000toDouble time: 3ms]]>
+    </line>
+    <line>
+      <![CDATA[=> sane80bitsByteArray8000toDouble]]>
+    </line>
+    <line>
+      <![CDATA[09 0x40]]>
+    </line>
+    <line>
+      <![CDATA[08 0x0b]]>
+    </line>
+    <line>
+      <![CDATA[07 0xfa]]>
+    </line>
+    <line>
+      <![CDATA[06 0x00]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    12]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.953125]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits => 8000.0]]>
+    </line>
+    <line>
+      <![CDATA[=< sane80bitsByteArray8000toDouble time: 3ms]]>
+    </line>
+    <line>
+      <![CDATA[=> sane80bitsByteArrayHalftoDouble]]>
+    </line>
+    <line>
+      <![CDATA[09 0x3f]]>
+    </line>
+    <line>
+      <![CDATA[08 0xfe]]>
+    </line>
+    <line>
+      <![CDATA[07 0x80]]>
+    </line>
+    <line>
+      <![CDATA[06 0x00]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    -1]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.0]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits => 0.5]]>
+    </line>
+    <line>
+      <![CDATA[=< sane80bitsByteArrayHalftoDouble time: 2ms]]>
+    </line>
+    <line>
+      <![CDATA[=> sane80bitsByteArrayInfinityToDouble]]>
+    </line>
+    <line>
+      <![CDATA[09 0x7f]]>
+    </line>
+    <line>
+      <![CDATA[08 0xff]]>
+    </line>
+    <line>
+      <![CDATA[07 0x00]]>
+    </line>
+    <line>
+      <![CDATA[06 0x00]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    2147483647]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 0.0]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits => Infinity]]>
+    </line>
+    <line>
+      <![CDATA[=< sane80bitsByteArrayInfinityToDouble time: 17ms]]>
+    </line>
+    <line>
+      <![CDATA[=> sane80bitsByteArrayMinus11127toBinaryString]]>
+    </line>
+    <line>
+      <![CDATA[09 0xc0]]>
+    </line>
+    <line>
+      <![CDATA[08 0x0c]]>
+    </line>
+    <line>
+      <![CDATA[07 0xad]]>
+    </line>
+    <line>
+      <![CDATA[06 0xdc]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    false]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    13]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.3582763671875]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits => -11127.0]]>
+    </line>
+    <line>
+      <![CDATA[80 bits BinaryString: 11000000000011001010110111011100000000000000000000000000000000000000000000000000]]>
+    </line>
+    <line>
+      <![CDATA[=< sane80bitsByteArrayMinus11127toBinaryString time: 4ms]]>
+    </line>
+    <line>
+      <![CDATA[=> sane80bitsByteArrayMinus1toDouble]]>
+    </line>
+    <line>
+      <![CDATA[09 0xbf]]>
+    </line>
+    <line>
+      <![CDATA[08 0xff]]>
+    </line>
+    <line>
+      <![CDATA[07 0x80]]>
+    </line>
+    <line>
+      <![CDATA[06 0x00]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    false]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    0]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.0]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits => -1.0]]>
+    </line>
+    <line>
+      <![CDATA[=< sane80bitsByteArrayMinus1toDouble time: 3ms]]>
+    </line>
+    <line>
+      <![CDATA[=> sane80bitsByteArrayMinus22255]]>
+    </line>
+    <line>
+      <![CDATA[09 0xc0]]>
+    </line>
+    <line>
+      <![CDATA[08 0x0d]]>
+    </line>
+    <line>
+      <![CDATA[07 0xad]]>
+    </line>
+    <line>
+      <![CDATA[06 0xde]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    false]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    14]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.35833740234375]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits => -22255.0]]>
+    </line>
+    <line>
+      <![CDATA[=< sane80bitsByteArrayMinus22255 time: 5ms]]>
+    </line>
+    <line>
+      <![CDATA[=> sane80bitsByteArrayMinusInfinityToDouble]]>
+    </line>
+    <line>
+      <![CDATA[09 0xff]]>
+    </line>
+    <line>
+      <![CDATA[08 0xff]]>
+    </line>
+    <line>
+      <![CDATA[07 0x00]]>
+    </line>
+    <line>
+      <![CDATA[06 0x00]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    false]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    2147483647]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 0.0]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits => -Infinity]]>
+    </line>
+    <line>
+      <![CDATA[=< sane80bitsByteArrayMinusInfinityToDouble time: 2ms]]>
+    </line>
+    <line>
+      <![CDATA[=> sane80bitsByteArrayNegativeNotaNumberToDouble]]>
+    </line>
+    <line>
+      <![CDATA[09 0xff]]>
+    </line>
+    <line>
+      <![CDATA[08 0xff]]>
+    </line>
+    <line>
+      <![CDATA[07 0x00]]>
+    </line>
+    <line>
+      <![CDATA[06 0x00]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x01]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    false]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    2147483647]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.0842021724855044E-19]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits => NaN]]>
+    </line>
+    <line>
+      <![CDATA[=< sane80bitsByteArrayNegativeNotaNumberToDouble time: 4ms]]>
+    </line>
+    <line>
+      <![CDATA[=> sane80bitsByteArrayNegativeZeroToDouble]]>
+    </line>
+    <line>
+      <![CDATA[09 0x80]]>
+    </line>
+    <line>
+      <![CDATA[08 0x00]]>
+    </line>
+    <line>
+      <![CDATA[07 0x00]]>
+    </line>
+    <line>
+      <![CDATA[06 0x00]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    false]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    0]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 0.0]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits => 0.0]]>
+    </line>
+    <line>
+      <![CDATA[=< sane80bitsByteArrayNegativeZeroToDouble time: 11ms]]>
+    </line>
+    <line>
+      <![CDATA[=> sane80bitsByteArrayNotaNumberToDouble]]>
+    </line>
+    <line>
+      <![CDATA[09 0x7f]]>
+    </line>
+    <line>
+      <![CDATA[08 0xff]]>
+    </line>
+    <line>
+      <![CDATA[07 0x00]]>
+    </line>
+    <line>
+      <![CDATA[06 0x00]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x01]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    2147483647]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.0842021724855044E-19]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits => NaN]]>
+    </line>
+    <line>
+      <![CDATA[=< sane80bitsByteArrayNotaNumberToDouble time: 1ms]]>
+    </line>
+    <line>
+      <![CDATA[=> sane80bitsByteArrayPositiveZeroToDouble]]>
+    </line>
+    <line>
+      <![CDATA[09 0x00]]>
+    </line>
+    <line>
+      <![CDATA[08 0x00]]>
+    </line>
+    <line>
+      <![CDATA[07 0x00]]>
+    </line>
+    <line>
+      <![CDATA[06 0x00]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    0]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 0.0]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits => 0.0]]>
+    </line>
+    <line>
+      <![CDATA[=< sane80bitsByteArrayPositiveZeroToDouble time: 3ms]]>
+    </line>
+    <line>
+      <![CDATA[=> nullConversion64bits0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x00]]>
+    </line>
+    <line>
+      <![CDATA[06 0x00]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    0]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 0.0]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         0.0]]>
+    </line>
+    <line>
+      <![CDATA[=< nullConversion64bits0 time: 6ms]]>
+    </line>
+    <line>
+      <![CDATA[=> nullConversion64bits0point1]]>
+    </line>
+    <line>
+      <![CDATA[07 0x3f]]>
+    </line>
+    <line>
+      <![CDATA[06 0xb9]]>
+    </line>
+    <line>
+      <![CDATA[05 0x99]]>
+    </line>
+    <line>
+      <![CDATA[04 0x99]]>
+    </line>
+    <line>
+      <![CDATA[03 0x99]]>
+    </line>
+    <line>
+      <![CDATA[02 0x99]]>
+    </line>
+    <line>
+      <![CDATA[01 0x99]]>
+    </line>
+    <line>
+      <![CDATA[00 0x9a]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    -4]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.6]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         0.1]]>
+    </line>
+    <line>
+      <![CDATA[=< nullConversion64bits0point1 time: 3ms]]>
+    </line>
+    <line>
+      <![CDATA[=> nullConversion64bits1]]>
+    </line>
+    <line>
+      <![CDATA[07 0x3f]]>
+    </line>
+    <line>
+      <![CDATA[06 0xf0]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    0]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.0]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         1.0]]>
+    </line>
+    <line>
+      <![CDATA[=< nullConversion64bits1 time: 3ms]]>
+    </line>
+    <line>
+      <![CDATA[=> nullConversion64bits16]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    4]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.0]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         16.0]]>
+    </line>
+    <line>
+      <![CDATA[=< nullConversion64bits16 time: 1ms]]>
+    </line>
+    <line>
+      <![CDATA[=> nullConversion64bits1to100]]>
+    </line>
+    <line>
+      <![CDATA[07 0x3f]]>
+    </line>
+    <line>
+      <![CDATA[06 0xf0]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    0]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.0]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         1.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x00]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    1]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.0]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         2.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x08]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    1]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.5]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         3.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x10]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    2]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.0]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         4.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x14]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    2]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.25]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         5.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x18]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    2]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.5]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         6.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x1c]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    2]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.75]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         7.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x20]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    3]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.0]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         8.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x22]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    3]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.125]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         9.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x24]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    3]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.25]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         10.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x26]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    3]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.375]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         11.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x28]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    3]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.5]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         12.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x2a]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    3]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.625]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         13.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x2c]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    3]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.75]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         14.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x2e]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    3]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.875]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         15.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x30]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    4]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.0]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         16.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x31]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    4]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.0625]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         17.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x32]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    4]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.125]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         18.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x33]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    4]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.1875]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         19.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x34]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    4]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.25]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         20.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x35]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    4]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.3125]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         21.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x36]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    4]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.375]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         22.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x37]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    4]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.4375]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         23.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x38]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    4]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.5]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         24.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x39]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    4]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.5625]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         25.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x3a]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    4]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.625]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         26.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x3b]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    4]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.6875]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         27.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x3c]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    4]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.75]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         28.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x3d]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    4]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.8125]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         29.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x3e]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    4]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.875]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         30.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x3f]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    4]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.9375]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         31.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x40]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.0]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         32.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x40]]>
+    </line>
+    <line>
+      <![CDATA[05 0x80]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.03125]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         33.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x41]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.0625]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         34.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x41]]>
+    </line>
+    <line>
+      <![CDATA[05 0x80]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.09375]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         35.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x42]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.125]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         36.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x42]]>
+    </line>
+    <line>
+      <![CDATA[05 0x80]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.15625]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         37.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x43]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.1875]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         38.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x43]]>
+    </line>
+    <line>
+      <![CDATA[05 0x80]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.21875]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         39.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x44]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.25]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         40.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x44]]>
+    </line>
+    <line>
+      <![CDATA[05 0x80]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.28125]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         41.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x45]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.3125]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         42.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x45]]>
+    </line>
+    <line>
+      <![CDATA[05 0x80]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.34375]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         43.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x46]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.375]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         44.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x46]]>
+    </line>
+    <line>
+      <![CDATA[05 0x80]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.40625]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         45.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x47]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.4375]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         46.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x47]]>
+    </line>
+    <line>
+      <![CDATA[05 0x80]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.46875]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         47.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x48]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.5]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         48.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x48]]>
+    </line>
+    <line>
+      <![CDATA[05 0x80]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.53125]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         49.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x49]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.5625]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         50.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x49]]>
+    </line>
+    <line>
+      <![CDATA[05 0x80]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.59375]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         51.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x4a]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.625]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         52.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x4a]]>
+    </line>
+    <line>
+      <![CDATA[05 0x80]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.65625]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         53.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x4b]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.6875]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         54.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x4b]]>
+    </line>
+    <line>
+      <![CDATA[05 0x80]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.71875]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         55.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x4c]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.75]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         56.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x4c]]>
+    </line>
+    <line>
+      <![CDATA[05 0x80]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.78125]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         57.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x4d]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.8125]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         58.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x4d]]>
+    </line>
+    <line>
+      <![CDATA[05 0x80]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.84375]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         59.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x4e]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.875]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         60.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x4e]]>
+    </line>
+    <line>
+      <![CDATA[05 0x80]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.90625]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         61.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x4f]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.9375]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         62.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x4f]]>
+    </line>
+    <line>
+      <![CDATA[05 0x80]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    5]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.96875]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         63.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x50]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.0]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         64.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x50]]>
+    </line>
+    <line>
+      <![CDATA[05 0x40]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.015625]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         65.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x50]]>
+    </line>
+    <line>
+      <![CDATA[05 0x80]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.03125]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         66.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x50]]>
+    </line>
+    <line>
+      <![CDATA[05 0xc0]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.046875]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         67.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x51]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.0625]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         68.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x51]]>
+    </line>
+    <line>
+      <![CDATA[05 0x40]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.078125]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         69.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x51]]>
+    </line>
+    <line>
+      <![CDATA[05 0x80]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.09375]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         70.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x51]]>
+    </line>
+    <line>
+      <![CDATA[05 0xc0]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.109375]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         71.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x52]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.125]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         72.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x52]]>
+    </line>
+    <line>
+      <![CDATA[05 0x40]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.140625]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         73.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x52]]>
+    </line>
+    <line>
+      <![CDATA[05 0x80]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.15625]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         74.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x52]]>
+    </line>
+    <line>
+      <![CDATA[05 0xc0]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.171875]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         75.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x53]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.1875]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         76.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x53]]>
+    </line>
+    <line>
+      <![CDATA[05 0x40]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.203125]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         77.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x53]]>
+    </line>
+    <line>
+      <![CDATA[05 0x80]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.21875]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         78.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x53]]>
+    </line>
+    <line>
+      <![CDATA[05 0xc0]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.234375]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         79.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x54]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.25]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         80.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x54]]>
+    </line>
+    <line>
+      <![CDATA[05 0x40]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.265625]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         81.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x54]]>
+    </line>
+    <line>
+      <![CDATA[05 0x80]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.28125]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         82.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x54]]>
+    </line>
+    <line>
+      <![CDATA[05 0xc0]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.296875]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         83.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x55]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.3125]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         84.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x55]]>
+    </line>
+    <line>
+      <![CDATA[05 0x40]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.328125]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         85.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x55]]>
+    </line>
+    <line>
+      <![CDATA[05 0x80]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.34375]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         86.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x55]]>
+    </line>
+    <line>
+      <![CDATA[05 0xc0]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.359375]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         87.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x56]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.375]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         88.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x56]]>
+    </line>
+    <line>
+      <![CDATA[05 0x40]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.390625]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         89.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x56]]>
+    </line>
+    <line>
+      <![CDATA[05 0x80]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.40625]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         90.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x56]]>
+    </line>
+    <line>
+      <![CDATA[05 0xc0]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.421875]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         91.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x57]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.4375]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         92.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x57]]>
+    </line>
+    <line>
+      <![CDATA[05 0x40]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.453125]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         93.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x57]]>
+    </line>
+    <line>
+      <![CDATA[05 0x80]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.46875]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         94.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x57]]>
+    </line>
+    <line>
+      <![CDATA[05 0xc0]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.484375]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         95.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x58]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.5]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         96.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x58]]>
+    </line>
+    <line>
+      <![CDATA[05 0x40]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.515625]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         97.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x58]]>
+    </line>
+    <line>
+      <![CDATA[05 0x80]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.53125]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         98.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x58]]>
+    </line>
+    <line>
+      <![CDATA[05 0xc0]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.546875]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         99.0]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x59]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    6]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.5625]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         100.0]]>
+    </line>
+    <line>
+      <![CDATA[=< nullConversion64bits1to100 time: 220ms]]>
+    </line>
+    <line>
+      <![CDATA[=> nullConversion64bits2]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    1]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.0]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         2.0]]>
+    </line>
+    <line>
+      <![CDATA[=< nullConversion64bits2 time: 0ms]]>
+    </line>
+    <line>
+      <![CDATA[=> nullConversion64bits3]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x08]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    1]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.5]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         3.0]]>
+    </line>
+    <line>
+      <![CDATA[=< nullConversion64bits3 time: 43ms]]>
+    </line>
+    <line>
+      <![CDATA[=> nullConversion64bits4]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    2]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.0]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         4.0]]>
+    </line>
+    <line>
+      <![CDATA[=< nullConversion64bits4 time: 1ms]]>
+    </line>
+    <line>
+      <![CDATA[=> nullConversion64bitsNaN]]>
+    </line>
+    <line>
+      <![CDATA[07 0x7f]]>
+    </line>
+    <line>
+      <![CDATA[06 0xf8]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    2147483647]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 0.5]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         NaN]]>
+    </line>
+    <line>
+      <![CDATA[=< nullConversion64bitsNaN time: 13ms]]>
+    </line>
+    <line>
+      <![CDATA[=> nullConversion64bitsPI]]>
+    </line>
+    <line>
+      <![CDATA[07 0x40]]>
+    </line>
+    <line>
+      <![CDATA[06 0x09]]>
+    </line>
+    <line>
+      <![CDATA[05 0x21]]>
+    </line>
+    <line>
+      <![CDATA[04 0xfb]]>
+    </line>
+    <line>
+      <![CDATA[03 0x54]]>
+    </line>
+    <line>
+      <![CDATA[02 0x44]]>
+    </line>
+    <line>
+      <![CDATA[01 0x2d]]>
+    </line>
+    <line>
+      <![CDATA[00 0x18]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits positive    true]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits exponent    1]]>
+    </line>
+    <line>
+      <![CDATA[SANE 80 bits significand 1.5707963267948966]]>
+    </line>
+    <line>
+      <![CDATA[SANE  64 bits =>         3.141592653589793]]>
+    </line>
+    <line>
+      <![CDATA[=< nullConversion64bitsPI time: 1ms]]>
+    </line>
+    <line>
+      <![CDATA[=> double0point1toByteArray]]>
+    </line>
+    <line>
+      <![CDATA[09 0x3f]]>
+    </line>
+    <line>
+      <![CDATA[08 0xff]]>
+    </line>
+    <line>
+      <![CDATA[07 0xc0]]>
+    </line>
+    <line>
+      <![CDATA[06 0x00]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[=< double0point1toByteArray time: 1ms]]>
+    </line>
+    <line>
+      <![CDATA[=> double11127toSane80bitsByteArray]]>
+    </line>
+    <line>
+      <![CDATA[09 0xc0]]>
+    </line>
+    <line>
+      <![CDATA[08 0x0c]]>
+    </line>
+    <line>
+      <![CDATA[07 0xad]]>
+    </line>
+    <line>
+      <![CDATA[06 0xdc]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[=< double11127toSane80bitsByteArray time: 1ms]]>
+    </line>
+    <line>
+      <![CDATA[=> double1point5toByteArray]]>
+    </line>
+    <line>
+      <![CDATA[09 0x3f]]>
+    </line>
+    <line>
+      <![CDATA[08 0xff]]>
+    </line>
+    <line>
+      <![CDATA[07 0xc0]]>
+    </line>
+    <line>
+      <![CDATA[06 0x00]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[=< double1point5toByteArray time: 2ms]]>
+    </line>
+    <line>
+      <![CDATA[=> double2toByteArray]]>
+    </line>
+    <line>
+      <![CDATA[09 0x40]]>
+    </line>
+    <line>
+      <![CDATA[08 0x00]]>
+    </line>
+    <line>
+      <![CDATA[07 0x80]]>
+    </line>
+    <line>
+      <![CDATA[06 0x00]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[=< double2toByteArray time: 1ms]]>
+    </line>
+    <line>
+      <![CDATA[=> double48000toSane80bitsByteArray]]>
+    </line>
+    <line>
+      <![CDATA[09 0x40]]>
+    </line>
+    <line>
+      <![CDATA[08 0x0e]]>
+    </line>
+    <line>
+      <![CDATA[07 0xbb]]>
+    </line>
+    <line>
+      <![CDATA[06 0x80]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[=< double48000toSane80bitsByteArray time: 2ms]]>
+    </line>
+    <line>
+      <![CDATA[=> double8000toByteArray]]>
+    </line>
+    <line>
+      <![CDATA[09 0x40]]>
+    </line>
+    <line>
+      <![CDATA[08 0x0b]]>
+    </line>
+    <line>
+      <![CDATA[07 0xfa]]>
+    </line>
+    <line>
+      <![CDATA[06 0x00]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[=< double8000toByteArray time: 3ms]]>
+    </line>
+    <line>
+      <![CDATA[=> doubleHalfToSane80bitsByteArray]]>
+    </line>
+    <line>
+      <![CDATA[09 0x3f]]>
+    </line>
+    <line>
+      <![CDATA[08 0xfe]]>
+    </line>
+    <line>
+      <![CDATA[07 0x80]]>
+    </line>
+    <line>
+      <![CDATA[06 0x00]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[=< doubleHalfToSane80bitsByteArray time: 18ms]]>
+    </line>
+    <line>
+      <![CDATA[=> doubleInfinityToSane80bitsByteArray]]>
+    </line>
+    <line>
+      <![CDATA[09 0x7f]]>
+    </line>
+    <line>
+      <![CDATA[08 0xff]]>
+    </line>
+    <line>
+      <![CDATA[07 0x00]]>
+    </line>
+    <line>
+      <![CDATA[06 0x00]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[=< doubleInfinityToSane80bitsByteArray time: 1ms]]>
+    </line>
+    <line>
+      <![CDATA[=> doubleMinus1toByteArray]]>
+    </line>
+    <line>
+      <![CDATA[09 0xbf]]>
+    </line>
+    <line>
+      <![CDATA[08 0xff]]>
+    </line>
+    <line>
+      <![CDATA[07 0x80]]>
+    </line>
+    <line>
+      <![CDATA[06 0x00]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[=< doubleMinus1toByteArray time: 1ms]]>
+    </line>
+    <line>
+      <![CDATA[=> doubleNaNtoSane80bitsByteArray]]>
+    </line>
+    <line>
+      <![CDATA[09 0x7f]]>
+    </line>
+    <line>
+      <![CDATA[08 0xff]]>
+    </line>
+    <line>
+      <![CDATA[07 0xc0]]>
+    </line>
+    <line>
+      <![CDATA[06 0x00]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[=< doubleNaNtoSane80bitsByteArray time: 1ms]]>
+    </line>
+    <line>
+      <![CDATA[=> doubleNegative48000toSane80bitsByteArray]]>
+    </line>
+    <line>
+      <![CDATA[09 0xc0]]>
+    </line>
+    <line>
+      <![CDATA[08 0x0e]]>
+    </line>
+    <line>
+      <![CDATA[07 0xbb]]>
+    </line>
+    <line>
+      <![CDATA[06 0x80]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[=< doubleNegative48000toSane80bitsByteArray time: 1ms]]>
+    </line>
+    <line>
+      <![CDATA[=> doubleNegativeInfinityToSane80bitsByteArray]]>
+    </line>
+    <line>
+      <![CDATA[09 0xff]]>
+    </line>
+    <line>
+      <![CDATA[08 0xff]]>
+    </line>
+    <line>
+      <![CDATA[07 0x00]]>
+    </line>
+    <line>
+      <![CDATA[06 0x00]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[=< doubleNegativeInfinityToSane80bitsByteArray time: 1ms]]>
+    </line>
+    <line>
+      <![CDATA[=> doubleOneToSane80bitsByteArray]]>
+    </line>
+    <line>
+      <![CDATA[09 0x3f]]>
+    </line>
+    <line>
+      <![CDATA[08 0xff]]>
+    </line>
+    <line>
+      <![CDATA[07 0x80]]>
+    </line>
+    <line>
+      <![CDATA[06 0x00]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[=< doubleOneToSane80bitsByteArray time: 1ms]]>
+    </line>
+    <line>
+      <![CDATA[=> doubleTo11127toSane80bitsByteArray]]>
+    </line>
+    <line>
+      <![CDATA[09 0x40]]>
+    </line>
+    <line>
+      <![CDATA[08 0x0c]]>
+    </line>
+    <line>
+      <![CDATA[07 0xad]]>
+    </line>
+    <line>
+      <![CDATA[06 0xdc]]>
+    </line>
+    <line>
+      <![CDATA[05 0x00]]>
+    </line>
+    <line>
+      <![CDATA[04 0x00]]>
+    </line>
+    <line>
+      <![CDATA[03 0x00]]>
+    </line>
+    <line>
+      <![CDATA[02 0x00]]>
+    </line>
+    <line>
+      <![CDATA[01 0x00]]>
+    </line>
+    <line>
+      <![CDATA[00 0x00]]>
+    </line>
+    <line>
+      <![CDATA[=< doubleTo11127toSane80bitsByteArray time: 2ms]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="2049" started-at="2012-02-10T23:47:34Z" finished-at="2012-02-10T23:47:36Z">
+  <suite name="Suite" duration-ms="1788" started-at="2012-02-11T22:49:28Z" finished-at="2012-02-11T22:49:30Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="2049" started-at="2012-02-10T23:47:34Z" finished-at="2012-02-10T23:47:36Z">
+    <test name="Test" duration-ms="1788" started-at="2012-02-11T22:49:28Z" finished-at="2012-02-11T22:49:30Z">
       <class name="org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits">
-        <test-method status="PASS" signature="nullConversion64bits0()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb]" name="nullConversion64bits0" duration-ms="15" started-at="2012-02-10T23:47:34Z" description="null conversion 0 to double" finished-at="2012-02-10T23:47:34Z">
+        <test-method status="PASS" signature="nullConversion64bits0()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@47c297a3]" name="nullConversion64bits0" duration-ms="15" started-at="2012-02-11T22:49:29Z" description="null conversion 0 to double" finished-at="2012-02-11T22:49:29Z">
         </test-method>
-        <test-method status="PASS" signature="nullConversion64bits01()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb]" name="nullConversion64bits01" duration-ms="41" started-at="2012-02-10T23:47:34Z" description="null conversion 0.1 to double" finished-at="2012-02-10T23:47:34Z">
+        <test-method status="PASS" signature="nullConversion64bits0point1()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@47c297a3]" name="nullConversion64bits0point1" duration-ms="32" started-at="2012-02-11T22:49:29Z" description="null conversion 0.1 to double" finished-at="2012-02-11T22:49:29Z">
         </test-method>
-        <test-method status="PASS" signature="nullConversion64bits1()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb]" name="nullConversion64bits1" duration-ms="30" started-at="2012-02-10T23:47:34Z" description="null conversion 1 to double" finished-at="2012-02-10T23:47:34Z">
+        <test-method status="PASS" signature="nullConversion64bits1()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@47c297a3]" name="nullConversion64bits1" duration-ms="13" started-at="2012-02-11T22:49:29Z" description="null conversion 1 to double" finished-at="2012-02-11T22:49:29Z">
         </test-method>
-        <test-method status="PASS" signature="nullConversion64bits16()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb]" name="nullConversion64bits16" duration-ms="56" started-at="2012-02-10T23:47:34Z" description="null conversion 16 to double" finished-at="2012-02-10T23:47:35Z">
+        <test-method status="PASS" signature="nullConversion64bits16()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@47c297a3]" name="nullConversion64bits16" duration-ms="11" started-at="2012-02-11T22:49:29Z" description="null conversion 16 to double" finished-at="2012-02-11T22:49:29Z">
         </test-method>
-        <test-method status="PASS" signature="nullConversion64bits1to100()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb]" name="nullConversion64bits1to100" duration-ms="279" started-at="2012-02-10T23:47:35Z" description="null conversion fro; 1 to 100 to double" finished-at="2012-02-10T23:47:35Z">
+        <test-method status="PASS" signature="nullConversion64bits1to100()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@47c297a3]" name="nullConversion64bits1to100" duration-ms="272" started-at="2012-02-11T22:49:29Z" description="null conversion fro; 1 to 100 to double" finished-at="2012-02-11T22:49:30Z">
         </test-method>
-        <test-method status="PASS" signature="nullConversion64bits2()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb]" name="nullConversion64bits2" duration-ms="52" started-at="2012-02-10T23:47:35Z" description="null conversion -22255 to double" finished-at="2012-02-10T23:47:35Z">
+        <test-method status="PASS" signature="nullConversion64bits2()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@47c297a3]" name="nullConversion64bits2" duration-ms="117" started-at="2012-02-11T22:49:30Z" description="null conversion -22255 to double" finished-at="2012-02-11T22:49:30Z">
         </test-method>
-        <test-method status="PASS" signature="nullConversion64bits3()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb]" name="nullConversion64bits3" duration-ms="58" started-at="2012-02-10T23:47:35Z" description="null conversion 3 to double" finished-at="2012-02-10T23:47:35Z">
+        <test-method status="PASS" signature="nullConversion64bits3()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@47c297a3]" name="nullConversion64bits3" duration-ms="52" started-at="2012-02-11T22:49:30Z" description="null conversion 3 to double" finished-at="2012-02-11T22:49:30Z">
         </test-method>
-        <test-method status="PASS" signature="nullConversion64bits4()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb]" name="nullConversion64bits4" duration-ms="36" started-at="2012-02-10T23:47:35Z" description="null conversion 4 to double" finished-at="2012-02-10T23:47:35Z">
+        <test-method status="PASS" signature="nullConversion64bits4()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@47c297a3]" name="nullConversion64bits4" duration-ms="10" started-at="2012-02-11T22:49:30Z" description="null conversion 4 to double" finished-at="2012-02-11T22:49:30Z">
         </test-method>
-        <test-method status="PASS" signature="nullConversion64bitsNaN()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb]" name="nullConversion64bitsNaN" duration-ms="48" started-at="2012-02-10T23:47:35Z" description="null conversion NaN to double" finished-at="2012-02-10T23:47:35Z">
+        <test-method status="PASS" signature="nullConversion64bitsNaN()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@47c297a3]" name="nullConversion64bitsNaN" duration-ms="20" started-at="2012-02-11T22:49:30Z" description="null conversion NaN to double" finished-at="2012-02-11T22:49:30Z">
         </test-method>
-        <test-method status="PASS" signature="nullConversion64bitsPI()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3d7dc1cb]" name="nullConversion64bitsPI" duration-ms="129" started-at="2012-02-10T23:47:35Z" description="null conversion PI to double" finished-at="2012-02-10T23:47:35Z">
+        <test-method status="PASS" signature="nullConversion64bitsPI()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@47c297a3]" name="nullConversion64bitsPI" duration-ms="11" started-at="2012-02-11T22:49:30Z" description="null conversion PI to double" finished-at="2012-02-11T22:49:30Z">
         </test-method>
       </class>
       <class name="org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray">
-        <test-method status="PASS" signature="double11127toSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f]" name="double11127toSane80bitsByteArray" duration-ms="88" started-at="2012-02-10T23:47:35Z" description="double -11127 to sane80bits byte array" finished-at="2012-02-10T23:47:35Z">
+        <test-method status="PASS" signature="double0point1toByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@3175ade6]" name="double0point1toByteArray" duration-ms="20" started-at="2012-02-11T22:49:30Z" description="double 0.1 to sane80bits byte array" finished-at="2012-02-11T22:49:30Z">
         </test-method>
-        <test-method status="PASS" signature="double1point5toByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f]" name="double1point5toByteArray" duration-ms="26" started-at="2012-02-10T23:47:35Z" description="double 1.5 to sane80bits byte array" finished-at="2012-02-10T23:47:35Z">
+        <test-method status="PASS" signature="double11127toSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@3175ade6]" name="double11127toSane80bitsByteArray" duration-ms="10" started-at="2012-02-11T22:49:30Z" description="double -11127 to sane80bits byte array" finished-at="2012-02-11T22:49:30Z">
         </test-method>
-        <test-method status="PASS" signature="double2toByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f]" name="double2toByteArray" duration-ms="13" started-at="2012-02-10T23:47:35Z" description="double 2 to sane80bits byte array" finished-at="2012-02-10T23:47:35Z">
+        <test-method status="PASS" signature="double1point5toByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@3175ade6]" name="double1point5toByteArray" duration-ms="22" started-at="2012-02-11T22:49:30Z" description="double 1.5 to sane80bits byte array" finished-at="2012-02-11T22:49:30Z">
         </test-method>
-        <test-method status="PASS" signature="double48000toSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f]" name="double48000toSane80bitsByteArray" duration-ms="28" started-at="2012-02-10T23:47:35Z" description="double 48000 to sane80bits byte array" finished-at="2012-02-10T23:47:35Z">
+        <test-method status="PASS" signature="double2toByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@3175ade6]" name="double2toByteArray" duration-ms="8" started-at="2012-02-11T22:49:30Z" description="double 2 to sane80bits byte array" finished-at="2012-02-11T22:49:30Z">
         </test-method>
-        <test-method status="PASS" signature="double8000toByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f]" name="double8000toByteArray" duration-ms="19" started-at="2012-02-10T23:47:35Z" description="double 8000 to sane80bits byte array" finished-at="2012-02-10T23:47:35Z">
+        <test-method status="PASS" signature="double48000toSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@3175ade6]" name="double48000toSane80bitsByteArray" duration-ms="52" started-at="2012-02-11T22:49:30Z" description="double 48000 to sane80bits byte array" finished-at="2012-02-11T22:49:30Z">
         </test-method>
-        <test-method status="PASS" signature="doubleHalfToSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f]" name="doubleHalfToSane80bitsByteArray" duration-ms="21" started-at="2012-02-10T23:47:35Z" description="double 0.5 to sane80bits byte array" finished-at="2012-02-10T23:47:35Z">
+        <test-method status="PASS" signature="double8000toByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@3175ade6]" name="double8000toByteArray" duration-ms="10" started-at="2012-02-11T22:49:30Z" description="double 8000 to sane80bits byte array" finished-at="2012-02-11T22:49:30Z">
         </test-method>
-        <test-method status="PASS" signature="doubleInfinityToSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f]" name="doubleInfinityToSane80bitsByteArray" duration-ms="24" started-at="2012-02-10T23:47:35Z" description="double poitive infinity to sane80bits byte array" finished-at="2012-02-10T23:47:35Z">
+        <test-method status="PASS" signature="doubleHalfToSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@3175ade6]" name="doubleHalfToSane80bitsByteArray" duration-ms="73" started-at="2012-02-11T22:49:30Z" description="double 0.5 to sane80bits byte array" finished-at="2012-02-11T22:49:30Z">
         </test-method>
-        <test-method status="PASS" signature="doubleMinus1toByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f]" name="doubleMinus1toByteArray" duration-ms="14" started-at="2012-02-10T23:47:35Z" description="double -1 to sane80bits byte array" finished-at="2012-02-10T23:47:35Z">
+        <test-method status="PASS" signature="doubleInfinityToSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@3175ade6]" name="doubleInfinityToSane80bitsByteArray" duration-ms="17" started-at="2012-02-11T22:49:30Z" description="double poitive infinity to sane80bits byte array" finished-at="2012-02-11T22:49:30Z">
         </test-method>
-        <test-method status="PASS" signature="doubleNaNtoSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f]" name="doubleNaNtoSane80bitsByteArray" duration-ms="32" started-at="2012-02-10T23:47:35Z" description="double NaN to sane80bits byte array" finished-at="2012-02-10T23:47:35Z">
+        <test-method status="PASS" signature="doubleMinus1toByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@3175ade6]" name="doubleMinus1toByteArray" duration-ms="17" started-at="2012-02-11T22:49:30Z" description="double -1 to sane80bits byte array" finished-at="2012-02-11T22:49:30Z">
         </test-method>
-        <test-method status="PASS" signature="doubleNegative48000toSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f]" name="doubleNegative48000toSane80bitsByteArray" duration-ms="21" started-at="2012-02-10T23:47:35Z" description="double 48000 to sane80bits byte array" finished-at="2012-02-10T23:47:36Z">
+        <test-method status="PASS" signature="doubleNaNtoSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@3175ade6]" name="doubleNaNtoSane80bitsByteArray" duration-ms="8" started-at="2012-02-11T22:49:30Z" description="double NaN to sane80bits byte array" finished-at="2012-02-11T22:49:30Z">
         </test-method>
-        <test-method status="PASS" signature="doubleNegativeInfinityToSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f]" name="doubleNegativeInfinityToSane80bitsByteArray" duration-ms="13" started-at="2012-02-10T23:47:36Z" description="double negative infinity to sane80bits byte array" finished-at="2012-02-10T23:47:36Z">
+        <test-method status="PASS" signature="doubleNegative48000toSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@3175ade6]" name="doubleNegative48000toSane80bitsByteArray" duration-ms="7" started-at="2012-02-11T22:49:30Z" description="double 48000 to sane80bits byte array" finished-at="2012-02-11T22:49:30Z">
         </test-method>
-        <test-method status="PASS" signature="doubleOneToSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f]" name="doubleOneToSane80bitsByteArray" duration-ms="12" started-at="2012-02-10T23:47:36Z" description="double 1 to sane80bits byte array" finished-at="2012-02-10T23:47:36Z">
+        <test-method status="PASS" signature="doubleNegativeInfinityToSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@3175ade6]" name="doubleNegativeInfinityToSane80bitsByteArray" duration-ms="13" started-at="2012-02-11T22:49:30Z" description="double negative infinity to sane80bits byte array" finished-at="2012-02-11T22:49:30Z">
         </test-method>
-        <test-method status="PASS" signature="doubleTo11127toSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7461373f]" name="doubleTo11127toSane80bitsByteArray" duration-ms="33" started-at="2012-02-10T23:47:36Z" description="double 11127 to sane80bits byte array" finished-at="2012-02-10T23:47:36Z">
+        <test-method status="PASS" signature="doubleOneToSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@3175ade6]" name="doubleOneToSane80bitsByteArray" duration-ms="10" started-at="2012-02-11T22:49:30Z" description="double 1 to sane80bits byte array" finished-at="2012-02-11T22:49:30Z">
+        </test-method>
+        <test-method status="PASS" signature="doubleTo11127toSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@3175ade6]" name="doubleTo11127toSane80bitsByteArray" duration-ms="56" started-at="2012-02-11T22:49:30Z" description="double 11127 to sane80bits byte array" finished-at="2012-02-11T22:49:30Z">
         </test-method>
       </class>
       <class name="org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble">
-        <test-method status="PASS" signature="sane80bits2toSane80bitsDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bits2toSane80bitsDouble" duration-ms="147" started-at="2012-02-10T23:47:34Z" description="byte array sane80bits 2.0 to double" finished-at="2012-02-10T23:47:34Z">
+        <test-method status="PASS" signature="sane80bits2toSane80bitsDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@32602b6b]" name="sane80bits2toSane80bitsDouble" duration-ms="289" started-at="2012-02-11T22:49:29Z" description="byte array sane80bits 2.0 to double" finished-at="2012-02-11T22:49:29Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArayThreeQuarterToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArayThreeQuarterToDouble" duration-ms="13" started-at="2012-02-10T23:47:34Z" description="byte array sane80bits 3/4 to double" finished-at="2012-02-10T23:47:34Z">
+        <test-method status="PASS" signature="sane80bitsByteArayThreeQuarterToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@32602b6b]" name="sane80bitsByteArayThreeQuarterToDouble" duration-ms="11" started-at="2012-02-11T22:49:29Z" description="byte array sane80bits 3/4 to double" finished-at="2012-02-11T22:49:29Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArray11127toBinaryString()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArray11127toBinaryString" duration-ms="22" started-at="2012-02-10T23:47:34Z" description="byte array sane80bits 22255 to binary string" finished-at="2012-02-10T23:47:34Z">
+        <test-method status="PASS" signature="sane80bitsByteArray11127toBinaryString()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@32602b6b]" name="sane80bitsByteArray11127toBinaryString" duration-ms="13" started-at="2012-02-11T22:49:29Z" description="byte array sane80bits 22255 to binary string" finished-at="2012-02-11T22:49:29Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArray11127toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArray11127toDouble" duration-ms="21" started-at="2012-02-10T23:47:34Z" description="byte array sane80bits 11127 to double" finished-at="2012-02-10T23:47:34Z">
+        <test-method status="PASS" signature="sane80bitsByteArray11127toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@32602b6b]" name="sane80bitsByteArray11127toDouble" duration-ms="9" started-at="2012-02-11T22:49:29Z" description="byte array sane80bits 11127 to double" finished-at="2012-02-11T22:49:29Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArray1ToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArray1ToDouble" duration-ms="34" started-at="2012-02-10T23:47:34Z" description="byte array 80bits one to double" finished-at="2012-02-10T23:47:34Z">
+        <test-method status="PASS" signature="sane80bitsByteArray1ToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@32602b6b]" name="sane80bitsByteArray1ToDouble" duration-ms="12" started-at="2012-02-11T22:49:29Z" description="byte array 80bits one to double" finished-at="2012-02-11T22:49:29Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArray22255toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArray22255toDouble" duration-ms="17" started-at="2012-02-10T23:47:34Z" description="byte array sane80bits 22255 to double" finished-at="2012-02-10T23:47:34Z">
+        <test-method status="PASS" signature="sane80bitsByteArray22255toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@32602b6b]" name="sane80bitsByteArray22255toDouble" duration-ms="9" started-at="2012-02-11T22:49:29Z" description="byte array sane80bits 22255 to double" finished-at="2012-02-11T22:49:29Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArray32000toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArray32000toDouble" duration-ms="23" started-at="2012-02-10T23:47:34Z" description="byte array sane80bits 32000 to double" finished-at="2012-02-10T23:47:34Z">
+        <test-method status="PASS" signature="sane80bitsByteArray32000toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@32602b6b]" name="sane80bitsByteArray32000toDouble" duration-ms="40" started-at="2012-02-11T22:49:29Z" description="byte array sane80bits 32000 to double" finished-at="2012-02-11T22:49:29Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArray44100toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArray44100toDouble" duration-ms="46" started-at="2012-02-10T23:47:34Z" description="byte array sane80bits 44100 to double" finished-at="2012-02-10T23:47:34Z">
+        <test-method status="PASS" signature="sane80bitsByteArray44100toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@32602b6b]" name="sane80bitsByteArray44100toDouble" duration-ms="22" started-at="2012-02-11T22:49:29Z" description="byte array sane80bits 44100 to double" finished-at="2012-02-11T22:49:29Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArray48000toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArray48000toDouble" duration-ms="24" started-at="2012-02-10T23:47:34Z" description="byte array sane80bits 48000 to double" finished-at="2012-02-10T23:47:34Z">
+        <test-method status="PASS" signature="sane80bitsByteArray48000toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@32602b6b]" name="sane80bitsByteArray48000toDouble" duration-ms="11" started-at="2012-02-11T22:49:29Z" description="byte array sane80bits 48000 to double" finished-at="2012-02-11T22:49:29Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArray8000toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArray8000toDouble" duration-ms="12" started-at="2012-02-10T23:47:34Z" description="byte array sane80bits 8000 to double" finished-at="2012-02-10T23:47:34Z">
+        <test-method status="PASS" signature="sane80bitsByteArray8000toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@32602b6b]" name="sane80bitsByteArray8000toDouble" duration-ms="11" started-at="2012-02-11T22:49:29Z" description="byte array sane80bits 8000 to double" finished-at="2012-02-11T22:49:29Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArrayHalftoDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArrayHalftoDouble" duration-ms="46" started-at="2012-02-10T23:47:34Z" description="byte array sane80bits 0.5 to double" finished-at="2012-02-10T23:47:34Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayHalftoDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@32602b6b]" name="sane80bitsByteArrayHalftoDouble" duration-ms="13" started-at="2012-02-11T22:49:29Z" description="byte array sane80bits 0.5 to double" finished-at="2012-02-11T22:49:29Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArrayInfinityToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArrayInfinityToDouble" duration-ms="38" started-at="2012-02-10T23:47:34Z" description="byte array 80bits infinity to double" finished-at="2012-02-10T23:47:34Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayInfinityToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@32602b6b]" name="sane80bitsByteArrayInfinityToDouble" duration-ms="26" started-at="2012-02-11T22:49:29Z" description="byte array 80bits infinity to double" finished-at="2012-02-11T22:49:29Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArrayMinus11127toBinaryString()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArrayMinus11127toBinaryString" duration-ms="14" started-at="2012-02-10T23:47:34Z" description="byte array sane80bits 11127 to binary string" finished-at="2012-02-10T23:47:34Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayMinus11127toBinaryString()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@32602b6b]" name="sane80bitsByteArrayMinus11127toBinaryString" duration-ms="14" started-at="2012-02-11T22:49:29Z" description="byte array sane80bits 11127 to binary string" finished-at="2012-02-11T22:49:29Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArrayMinus1toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArrayMinus1toDouble" duration-ms="22" started-at="2012-02-10T23:47:34Z" description="byte array sane80bits -1.0 to double" finished-at="2012-02-10T23:47:34Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayMinus1toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@32602b6b]" name="sane80bitsByteArrayMinus1toDouble" duration-ms="16" started-at="2012-02-11T22:49:29Z" description="byte array sane80bits -1.0 to double" finished-at="2012-02-11T22:49:29Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArrayMinus22255()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArrayMinus22255" duration-ms="50" started-at="2012-02-10T23:47:34Z" description="byte array sane80bits -22255 to double" finished-at="2012-02-10T23:47:34Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayMinus22255()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@32602b6b]" name="sane80bitsByteArrayMinus22255" duration-ms="11" started-at="2012-02-11T22:49:29Z" description="byte array sane80bits -22255 to double" finished-at="2012-02-11T22:49:29Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArrayMinusInfinityToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArrayMinusInfinityToDouble" duration-ms="48" started-at="2012-02-10T23:47:34Z" description="byte array 80bits negative infintiy to double" finished-at="2012-02-10T23:47:34Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayMinusInfinityToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@32602b6b]" name="sane80bitsByteArrayMinusInfinityToDouble" duration-ms="34" started-at="2012-02-11T22:49:29Z" description="byte array 80bits negative infintiy to double" finished-at="2012-02-11T22:49:29Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArrayNegativeNotaNumberToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArrayNegativeNotaNumberToDouble" duration-ms="50" started-at="2012-02-10T23:47:34Z" description="byte array 80bits negative NaN to double" finished-at="2012-02-10T23:47:34Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayNegativeNotaNumberToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@32602b6b]" name="sane80bitsByteArrayNegativeNotaNumberToDouble" duration-ms="57" started-at="2012-02-11T22:49:29Z" description="byte array 80bits negative NaN to double" finished-at="2012-02-11T22:49:29Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArrayNegativeZeroToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArrayNegativeZeroToDouble" duration-ms="18" started-at="2012-02-10T23:47:34Z" description="byte array 80bits negative zero to double" finished-at="2012-02-10T23:47:34Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayNegativeZeroToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@32602b6b]" name="sane80bitsByteArrayNegativeZeroToDouble" duration-ms="20" started-at="2012-02-11T22:49:29Z" description="byte array 80bits negative zero to double" finished-at="2012-02-11T22:49:29Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArrayNotaNumberToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArrayNotaNumberToDouble" duration-ms="34" started-at="2012-02-10T23:47:34Z" description="byte array 80bits NaN to double" finished-at="2012-02-10T23:47:34Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayNotaNumberToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@32602b6b]" name="sane80bitsByteArrayNotaNumberToDouble" duration-ms="9" started-at="2012-02-11T22:49:29Z" description="byte array 80bits NaN to double" finished-at="2012-02-11T22:49:29Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArrayPositiveZeroToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@1a7244ca]" name="sane80bitsByteArrayPositiveZeroToDouble" duration-ms="31" started-at="2012-02-10T23:47:34Z" description="byte array 80bits zero to double" finished-at="2012-02-10T23:47:34Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayPositiveZeroToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@32602b6b]" name="sane80bitsByteArrayPositiveZeroToDouble" duration-ms="71" started-at="2012-02-11T22:49:29Z" description="byte array 80bits zero to double" finished-at="2012-02-11T22:49:29Z">
         </test-method>
       </class>
     </test>

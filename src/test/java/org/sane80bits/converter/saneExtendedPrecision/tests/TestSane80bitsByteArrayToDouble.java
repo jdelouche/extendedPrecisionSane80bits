@@ -393,20 +393,14 @@ public class TestSane80bitsByteArrayToDouble extends AbstractTestDefines {
 
 		showByteArray(b);
 
-		ExtendedPrecision80 decoder8000 = new ExtendedPrecision80(b);
+		ExtendedPrecision80 decoder = new ExtendedPrecision80(b);
 
-		System.out.println(SANE_POSITIVE + decoder8000.isPositive());
-		System.out.println(SANE_EXPONENT
-				+ decoder8000.getExponentValue());
-		System.out.println(SANE_SIGNIFICAND
-				+ decoder8000.getSignificandValue());
-		System.out
-				.println(SANE_80_BITS + decoder8000.getDoubleValue());
+		showSane80bits(decoder);
 
-		assert decoder8000.isPositive();
-		assert decoder8000.getExponentValue() == 12;
-		assert decoder8000.getSignificandValue() == 1.953125;
-		assert decoder8000.getDoubleValue() == 8000;
+		assert decoder.isPositive();
+		assert decoder.getExponentValue() == 12;
+		assert decoder.getSignificandValue() == 1.953125;
+		assert decoder.getDoubleValue() == 8000;
 	}
 
 	@Test(description="byte array sane80bits 32000 to double")
@@ -426,20 +420,14 @@ public class TestSane80bitsByteArrayToDouble extends AbstractTestDefines {
 
 		showByteArray(b);
 
-		ExtendedPrecision80 decoder32000 = new ExtendedPrecision80(b);
+		ExtendedPrecision80 decoder = new ExtendedPrecision80(b);
 
-		System.out.println(SANE_POSITIVE + decoder32000.isPositive());
-		System.out.println(SANE_EXPONENT
-				+ decoder32000.getExponentValue());
-		System.out.println(SANE_SIGNIFICAND
-				+ decoder32000.getSignificandValue());
-		System.out.println(SANE_80_BITS
-				+ decoder32000.getDoubleValue());
+		showSane80bits(decoder);
 
-		assert decoder32000.isPositive();
-		assert decoder32000.getExponentValue() == 14;
-		assert decoder32000.getSignificandValue() == 1.953125;
-		assert decoder32000.getDoubleValue() == 32000;
+		assert decoder.isPositive();
+		assert decoder.getExponentValue() == 14;
+		assert decoder.getSignificandValue() == 1.953125;
+		assert decoder.getDoubleValue() == 32000;
 	}
 
 	@Test(description="byte array sane80bits 44100 to double")
@@ -528,7 +516,7 @@ public class TestSane80bitsByteArrayToDouble extends AbstractTestDefines {
 		assert decoder.getBitTable()[79] == false;
 		assert decoder.getBitTable()[78] == true;
 
-		System.out.println("80 bits BinaryString: " + decoder.toBinaryString());
+		showBinaryString(SANE_80_BITS_BINARY_STRING + decoder.toBinaryString());
 
 		assert decoder
 				.toBinaryString()
@@ -574,7 +562,7 @@ public class TestSane80bitsByteArrayToDouble extends AbstractTestDefines {
 		assert decoder.getBitTable()[79] == true;
 		assert decoder.getBitTable()[78] == true;
 
-		System.out.println("80 bits BinaryString: " + decoder.toBinaryString());
+		showBinaryString(SANE_80_BITS_BINARY_STRING + decoder.toBinaryString());
 
 		assert decoder
 				.toBinaryString()
