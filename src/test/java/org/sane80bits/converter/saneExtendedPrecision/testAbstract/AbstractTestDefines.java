@@ -1,4 +1,4 @@
-package org.sane80bits.converter.saneExtendedPrecision.tests;
+package org.sane80bits.converter.saneExtendedPrecision.testAbstract;
 
 import java.io.PrintStream;
 
@@ -14,14 +14,14 @@ abstract public class AbstractTestDefines {
 	protected static final String SANE_POSITIVE    = "SANE 80 bits positive    ";
 	protected static final String SANE_64_BITS     = "SANE  64 bits =>         ";
 	protected static final String SANE_80_BITS_BINARY_STRING = "80 bits BinaryString: ";
-	private PrintStream out=System.out;
+	static private PrintStream out=System.out;
 
-	public PrintStream getOut() {
+	public static PrintStream getOut() {
 		return out;
 	}
 
 	public void setOut(PrintStream out) {
-		this.out = out;
+		AbstractTestDefines.out = out;
 	}
 
 	public AbstractTestDefines() {
@@ -77,7 +77,7 @@ abstract public class AbstractTestDefines {
 		
 	}
 
-	protected void log(String msg) {
+	static public void log(String msg) {
 		out.println(msg);
 		Reporter.log(msg);
 	}

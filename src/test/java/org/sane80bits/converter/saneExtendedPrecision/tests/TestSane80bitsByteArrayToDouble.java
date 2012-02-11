@@ -2,6 +2,7 @@ package org.sane80bits.converter.saneExtendedPrecision.tests;
 
 import org.sane80bits.converter.model.ExtendedPrecision;
 import org.sane80bits.converter.saneExtendedPrecision.ExtendedPrecision80;
+import org.sane80bits.converter.saneExtendedPrecision.testAbstract.AbstractTestDefines;
 import org.testng.annotations.Test;
 
 /**

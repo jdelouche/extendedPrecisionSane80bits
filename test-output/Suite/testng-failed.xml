@@ -3,14 +3,60 @@
 <suite name="Failed suite [Suite]" parallel="none">
   <test name="Test(failed)" parallel="none" preserve-order="false">
     <classes>
-      <class name="org.sane80bits.converter.saneExtendedPrecision.tests.TestOfSANE80bits">
+      <class name="org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits">
         <methods>
           <include name="nullConversion64bits3"/>
-          <include name="nullConversion64bits1to100"/>
           <include name="nullConversion64bitsNaN"/>
-          <include name="nullConversion64bits1"/>
+          <include name="nullConversion64bits0"/>
           <include name="nullConversion64bitsPI"/>
-          <include name="nullConversion64bits01"/>
+          <include name="nullConversion64bits1to100"/>
+          <include name="nullConversion64bits16"/>
+          <include name="nullConversion64bits2"/>
+          <include name="nullConversion64bits0point1"/>
+          <include name="nullConversion64bits4"/>
+          <include name="nullConversion64bits1"/>
+        </methods>
+      </class>
+      <class name="org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray">
+        <methods>
+          <include name="doubleInfinityToSane80bitsByteArray"/>
+          <include name="doubleOneToSane80bitsByteArray"/>
+          <include name="double2toByteArray"/>
+          <include name="doubleNegativeInfinityToSane80bitsByteArray"/>
+          <include name="double1point5toByteArray"/>
+          <include name="double8000toByteArray"/>
+          <include name="double48000toSane80bitsByteArray"/>
+          <include name="doubleNaNtoSane80bitsByteArray"/>
+          <include name="double0point1toByteArray"/>
+          <include name="doubleMinus1toByteArray"/>
+          <include name="doubleNegative48000toSane80bitsByteArray"/>
+          <include name="doubleTo11127toSane80bitsByteArray"/>
+          <include name="double11127toSane80bitsByteArray"/>
+          <include name="doubleHalfToSane80bitsByteArray"/>
+        </methods>
+      </class>
+      <class name="org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble">
+        <methods>
+          <include name="sane80bitsByteArray11127toDouble"/>
+          <include name="sane80bitsByteArray22255toDouble"/>
+          <include name="sane80bitsByteArrayNotaNumberToDouble"/>
+          <include name="sane80bitsByteArrayMinusInfinityToDouble"/>
+          <include name="sane80bitsByteArray48000toDouble"/>
+          <include name="sane80bitsByteArrayMinus22255"/>
+          <include name="sane80bitsByteArray8000toDouble"/>
+          <include name="sane80bitsByteArray32000toDouble"/>
+          <include name="sane80bitsByteArrayHalftoDouble"/>
+          <include name="sane80bitsByteArayThreeQuarterToDouble"/>
+          <include name="sane80bits2toSane80bitsDouble"/>
+          <include name="sane80bitsByteArrayMinus11127toBinaryString"/>
+          <include name="sane80bitsByteArrayPositiveZeroToDouble"/>
+          <include name="sane80bitsByteArrayNegativeZeroToDouble"/>
+          <include name="sane80bitsByteArrayNegativeNotaNumberToDouble"/>
+          <include name="sane80bitsByteArray11127toBinaryString"/>
+          <include name="sane80bitsByteArrayInfinityToDouble"/>
+          <include name="sane80bitsByteArray1ToDouble"/>
+          <include name="sane80bitsByteArrayMinus1toDouble"/>
+          <include name="sane80bitsByteArray44100toDouble"/>
         </methods>
       </class>
     </classes>
