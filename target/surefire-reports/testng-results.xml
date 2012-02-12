@@ -2,9 +2,6 @@
 <testng-results skipped="0" failed="0" total="44" passed="44">
   <reporter-output>
     <line>
-      <![CDATA[=> sane80bits2toSane80bitsDouble]]>
-    </line>
-    <line>
       <![CDATA[09 0x40]]>
     </line>
     <line>
@@ -47,12 +44,6 @@
       <![CDATA[SANE 80 bits => 2.0]]>
     </line>
     <line>
-      <![CDATA[=< sane80bits2toSane80bitsDouble time: 178ms]]>
-    </line>
-    <line>
-      <![CDATA[=> sane80bitsByteArayThreeQuarterToDouble]]>
-    </line>
-    <line>
       <![CDATA[09 0x3f]]>
     </line>
     <line>
@@ -93,12 +84,6 @@
     </line>
     <line>
       <![CDATA[SANE 80 bits => 0.75]]>
-    </line>
-    <line>
-      <![CDATA[=< sane80bitsByteArayThreeQuarterToDouble time: 3ms]]>
-    </line>
-    <line>
-      <![CDATA[=> sane80bitsByteArray11127toBinaryString]]>
     </line>
     <line>
       <![CDATA[09 0x40]]>
@@ -146,12 +131,6 @@
       <![CDATA[80 bits BinaryString: 01000000000011001010110111011100000000000000000000000000000000000000000000000000]]>
     </line>
     <line>
-      <![CDATA[=< sane80bitsByteArray11127toBinaryString time: 6ms]]>
-    </line>
-    <line>
-      <![CDATA[=> sane80bitsByteArray11127toDouble]]>
-    </line>
-    <line>
       <![CDATA[09 0x40]]>
     </line>
     <line>
@@ -192,12 +171,6 @@
     </line>
     <line>
       <![CDATA[SANE 80 bits => 11127.0]]>
-    </line>
-    <line>
-      <![CDATA[=< sane80bitsByteArray11127toDouble time: 3ms]]>
-    </line>
-    <line>
-      <![CDATA[=> sane80bitsByteArray1ToDouble]]>
     </line>
     <line>
       <![CDATA[09 0x3f]]>
@@ -242,12 +215,6 @@
       <![CDATA[SANE 80 bits => 1.0]]>
     </line>
     <line>
-      <![CDATA[=< sane80bitsByteArray1ToDouble time: 8ms]]>
-    </line>
-    <line>
-      <![CDATA[=> sane80bitsByteArray22255toDouble]]>
-    </line>
-    <line>
       <![CDATA[09 0x40]]>
     </line>
     <line>
@@ -288,12 +255,6 @@
     </line>
     <line>
       <![CDATA[SANE 80 bits => 22255.0]]>
-    </line>
-    <line>
-      <![CDATA[=< sane80bitsByteArray22255toDouble time: 10ms]]>
-    </line>
-    <line>
-      <![CDATA[=> sane80bitsByteArray32000toDouble]]>
     </line>
     <line>
       <![CDATA[09 0x40]]>
@@ -338,12 +299,6 @@
       <![CDATA[SANE 80 bits => 32000.0]]>
     </line>
     <line>
-      <![CDATA[=< sane80bitsByteArray32000toDouble time: 3ms]]>
-    </line>
-    <line>
-      <![CDATA[=> sane80bitsByteArray44100toDouble]]>
-    </line>
-    <line>
       <![CDATA[09 0x40]]>
     </line>
     <line>
@@ -384,12 +339,6 @@
     </line>
     <line>
       <![CDATA[SANE 80 bits => 44100.0]]>
-    </line>
-    <line>
-      <![CDATA[=< sane80bitsByteArray44100toDouble time: 2ms]]>
-    </line>
-    <line>
-      <![CDATA[=> sane80bitsByteArray48000toDouble]]>
     </line>
     <line>
       <![CDATA[09 0x40]]>
@@ -434,12 +383,6 @@
       <![CDATA[SANE 80 bits => 48000.0]]>
     </line>
     <line>
-      <![CDATA[=< sane80bitsByteArray48000toDouble time: 2ms]]>
-    </line>
-    <line>
-      <![CDATA[=> sane80bitsByteArray8000toDouble]]>
-    </line>
-    <line>
       <![CDATA[09 0x40]]>
     </line>
     <line>
@@ -480,12 +423,6 @@
     </line>
     <line>
       <![CDATA[SANE 80 bits => 8000.0]]>
-    </line>
-    <line>
-      <![CDATA[=< sane80bitsByteArray8000toDouble time: 2ms]]>
-    </line>
-    <line>
-      <![CDATA[=> sane80bitsByteArrayHalftoDouble]]>
     </line>
     <line>
       <![CDATA[09 0x3f]]>
@@ -530,12 +467,6 @@
       <![CDATA[SANE 80 bits => 0.5]]>
     </line>
     <line>
-      <![CDATA[=< sane80bitsByteArrayHalftoDouble time: 2ms]]>
-    </line>
-    <line>
-      <![CDATA[=> sane80bitsByteArrayInfinityToDouble]]>
-    </line>
-    <line>
       <![CDATA[09 0x7f]]>
     </line>
     <line>
@@ -576,12 +507,6 @@
     </line>
     <line>
       <![CDATA[SANE 80 bits => Infinity]]>
-    </line>
-    <line>
-      <![CDATA[=< sane80bitsByteArrayInfinityToDouble time: 2ms]]>
-    </line>
-    <line>
-      <![CDATA[=> sane80bitsByteArrayMinus11127toBinaryString]]>
     </line>
     <line>
       <![CDATA[09 0xc0]]>
@@ -629,12 +554,6 @@
       <![CDATA[80 bits BinaryString: 11000000000011001010110111011100000000000000000000000000000000000000000000000000]]>
     </line>
     <line>
-      <![CDATA[=< sane80bitsByteArrayMinus11127toBinaryString time: 2ms]]>
-    </line>
-    <line>
-      <![CDATA[=> sane80bitsByteArrayMinus1toDouble]]>
-    </line>
-    <line>
       <![CDATA[09 0xbf]]>
     </line>
     <line>
@@ -675,12 +594,6 @@
     </line>
     <line>
       <![CDATA[SANE 80 bits => -1.0]]>
-    </line>
-    <line>
-      <![CDATA[=< sane80bitsByteArrayMinus1toDouble time: 9ms]]>
-    </line>
-    <line>
-      <![CDATA[=> sane80bitsByteArrayMinus22255]]>
     </line>
     <line>
       <![CDATA[09 0xc0]]>
@@ -725,12 +638,6 @@
       <![CDATA[SANE 80 bits => -22255.0]]>
     </line>
     <line>
-      <![CDATA[=< sane80bitsByteArrayMinus22255 time: 2ms]]>
-    </line>
-    <line>
-      <![CDATA[=> sane80bitsByteArrayMinusInfinityToDouble]]>
-    </line>
-    <line>
       <![CDATA[09 0xff]]>
     </line>
     <line>
@@ -773,12 +680,6 @@
       <![CDATA[SANE 80 bits => -Infinity]]>
     </line>
     <line>
-      <![CDATA[=< sane80bitsByteArrayMinusInfinityToDouble time: 1ms]]>
-    </line>
-    <line>
-      <![CDATA[=> sane80bitsByteArrayNegativeNotaNumberToDouble]]>
-    </line>
-    <line>
       <![CDATA[09 0xff]]>
     </line>
     <line>
@@ -819,12 +720,6 @@
     </line>
     <line>
       <![CDATA[SANE 80 bits => NaN]]>
-    </line>
-    <line>
-      <![CDATA[=< sane80bitsByteArrayNegativeNotaNumberToDouble time: 65ms]]>
-    </line>
-    <line>
-      <![CDATA[=> sane80bitsByteArrayNegativeZeroToDouble]]>
     </line>
     <line>
       <![CDATA[09 0x80]]>
@@ -869,12 +764,6 @@
       <![CDATA[SANE 80 bits => 0.0]]>
     </line>
     <line>
-      <![CDATA[=< sane80bitsByteArrayNegativeZeroToDouble time: 1ms]]>
-    </line>
-    <line>
-      <![CDATA[=> sane80bitsByteArrayNotaNumberToDouble]]>
-    </line>
-    <line>
       <![CDATA[09 0x7f]]>
     </line>
     <line>
@@ -915,12 +804,6 @@
     </line>
     <line>
       <![CDATA[SANE 80 bits => NaN]]>
-    </line>
-    <line>
-      <![CDATA[=< sane80bitsByteArrayNotaNumberToDouble time: 2ms]]>
-    </line>
-    <line>
-      <![CDATA[=> sane80bitsByteArrayPositiveZeroToDouble]]>
     </line>
     <line>
       <![CDATA[09 0x00]]>
@@ -965,12 +848,6 @@
       <![CDATA[SANE 80 bits => 0.0]]>
     </line>
     <line>
-      <![CDATA[=< sane80bitsByteArrayPositiveZeroToDouble time: 2ms]]>
-    </line>
-    <line>
-      <![CDATA[=> nullConversion64bits0]]>
-    </line>
-    <line>
       <![CDATA[07 0x00]]>
     </line>
     <line>
@@ -1005,12 +882,6 @@
     </line>
     <line>
       <![CDATA[SANE  64 bits =>         0.0]]>
-    </line>
-    <line>
-      <![CDATA[=< nullConversion64bits0 time: 16ms]]>
-    </line>
-    <line>
-      <![CDATA[=> nullConversion64bits0point1]]>
     </line>
     <line>
       <![CDATA[07 0x3f]]>
@@ -1049,12 +920,6 @@
       <![CDATA[SANE  64 bits =>         0.1]]>
     </line>
     <line>
-      <![CDATA[=< nullConversion64bits0point1 time: 3ms]]>
-    </line>
-    <line>
-      <![CDATA[=> nullConversion64bits1]]>
-    </line>
-    <line>
       <![CDATA[07 0x3f]]>
     </line>
     <line>
@@ -1091,12 +956,6 @@
       <![CDATA[SANE  64 bits =>         1.0]]>
     </line>
     <line>
-      <![CDATA[=< nullConversion64bits1 time: 3ms]]>
-    </line>
-    <line>
-      <![CDATA[=> nullConversion64bits16]]>
-    </line>
-    <line>
       <![CDATA[SANE 80 bits positive    true]]>
     </line>
     <line>
@@ -1107,12 +966,6 @@
     </line>
     <line>
       <![CDATA[SANE  64 bits =>         16.0]]>
-    </line>
-    <line>
-      <![CDATA[=< nullConversion64bits16 time: 11ms]]>
-    </line>
-    <line>
-      <![CDATA[=> nullConversion64bits1to100]]>
     </line>
     <line>
       <![CDATA[07 0x3f]]>
@@ -4715,12 +4568,6 @@
       <![CDATA[SANE  64 bits =>         100.0]]>
     </line>
     <line>
-      <![CDATA[=< nullConversion64bits1to100 time: 538ms]]>
-    </line>
-    <line>
-      <![CDATA[=> nullConversion64bits2]]>
-    </line>
-    <line>
       <![CDATA[SANE 80 bits positive    true]]>
     </line>
     <line>
@@ -4731,12 +4578,6 @@
     </line>
     <line>
       <![CDATA[SANE  64 bits =>         2.0]]>
-    </line>
-    <line>
-      <![CDATA[=< nullConversion64bits2 time: 1ms]]>
-    </line>
-    <line>
-      <![CDATA[=> nullConversion64bits3]]>
     </line>
     <line>
       <![CDATA[07 0x40]]>
@@ -4775,12 +4616,6 @@
       <![CDATA[SANE  64 bits =>         3.0]]>
     </line>
     <line>
-      <![CDATA[=< nullConversion64bits3 time: 2ms]]>
-    </line>
-    <line>
-      <![CDATA[=> nullConversion64bits4]]>
-    </line>
-    <line>
       <![CDATA[SANE 80 bits positive    true]]>
     </line>
     <line>
@@ -4791,12 +4626,6 @@
     </line>
     <line>
       <![CDATA[SANE  64 bits =>         4.0]]>
-    </line>
-    <line>
-      <![CDATA[=< nullConversion64bits4 time: 0ms]]>
-    </line>
-    <line>
-      <![CDATA[=> nullConversion64bitsNaN]]>
     </line>
     <line>
       <![CDATA[07 0x7f]]>
@@ -4835,12 +4664,6 @@
       <![CDATA[SANE  64 bits =>         NaN]]>
     </line>
     <line>
-      <![CDATA[=< nullConversion64bitsNaN time: 6ms]]>
-    </line>
-    <line>
-      <![CDATA[=> nullConversion64bitsPI]]>
-    </line>
-    <line>
       <![CDATA[07 0x40]]>
     </line>
     <line>
@@ -4877,12 +4700,6 @@
       <![CDATA[SANE  64 bits =>         3.141592653589793]]>
     </line>
     <line>
-      <![CDATA[=< nullConversion64bitsPI time: 2ms]]>
-    </line>
-    <line>
-      <![CDATA[=> double0point1toByteArray]]>
-    </line>
-    <line>
       <![CDATA[09 0x3f]]>
     </line>
     <line>
@@ -4911,12 +4728,6 @@
     </line>
     <line>
       <![CDATA[00 0x00]]>
-    </line>
-    <line>
-      <![CDATA[=< double0point1toByteArray time: 2ms]]>
-    </line>
-    <line>
-      <![CDATA[=> double11127toSane80bitsByteArray]]>
     </line>
     <line>
       <![CDATA[09 0xc0]]>
@@ -4949,12 +4760,6 @@
       <![CDATA[00 0x00]]>
     </line>
     <line>
-      <![CDATA[=< double11127toSane80bitsByteArray time: 1ms]]>
-    </line>
-    <line>
-      <![CDATA[=> double1point5toByteArray]]>
-    </line>
-    <line>
       <![CDATA[09 0x3f]]>
     </line>
     <line>
@@ -4983,12 +4788,6 @@
     </line>
     <line>
       <![CDATA[00 0x00]]>
-    </line>
-    <line>
-      <![CDATA[=< double1point5toByteArray time: 3ms]]>
-    </line>
-    <line>
-      <![CDATA[=> double2toByteArray]]>
     </line>
     <line>
       <![CDATA[09 0x40]]>
@@ -5021,12 +4820,6 @@
       <![CDATA[00 0x00]]>
     </line>
     <line>
-      <![CDATA[=< double2toByteArray time: 2ms]]>
-    </line>
-    <line>
-      <![CDATA[=> double48000toSane80bitsByteArray]]>
-    </line>
-    <line>
       <![CDATA[09 0x40]]>
     </line>
     <line>
@@ -5055,12 +4848,6 @@
     </line>
     <line>
       <![CDATA[00 0x00]]>
-    </line>
-    <line>
-      <![CDATA[=< double48000toSane80bitsByteArray time: 2ms]]>
-    </line>
-    <line>
-      <![CDATA[=> double8000toByteArray]]>
     </line>
     <line>
       <![CDATA[09 0x40]]>
@@ -5093,12 +4880,6 @@
       <![CDATA[00 0x00]]>
     </line>
     <line>
-      <![CDATA[=< double8000toByteArray time: 1ms]]>
-    </line>
-    <line>
-      <![CDATA[=> doubleHalfToSane80bitsByteArray]]>
-    </line>
-    <line>
       <![CDATA[09 0x3f]]>
     </line>
     <line>
@@ -5129,12 +4910,6 @@
       <![CDATA[00 0x00]]>
     </line>
     <line>
-      <![CDATA[=< doubleHalfToSane80bitsByteArray time: 3ms]]>
-    </line>
-    <line>
-      <![CDATA[=> doubleInfinityToSane80bitsByteArray]]>
-    </line>
-    <line>
       <![CDATA[09 0x7f]]>
     </line>
     <line>
@@ -5163,12 +4938,6 @@
     </line>
     <line>
       <![CDATA[00 0x00]]>
-    </line>
-    <line>
-      <![CDATA[=< doubleInfinityToSane80bitsByteArray time: 2ms]]>
-    </line>
-    <line>
-      <![CDATA[=> doubleMinus1toByteArray]]>
     </line>
     <line>
       <![CDATA[09 0xbf]]>
@@ -5201,12 +4970,6 @@
       <![CDATA[00 0x00]]>
     </line>
     <line>
-      <![CDATA[=< doubleMinus1toByteArray time: 2ms]]>
-    </line>
-    <line>
-      <![CDATA[=> doubleNaNtoSane80bitsByteArray]]>
-    </line>
-    <line>
       <![CDATA[09 0x7f]]>
     </line>
     <line>
@@ -5235,12 +4998,6 @@
     </line>
     <line>
       <![CDATA[00 0x00]]>
-    </line>
-    <line>
-      <![CDATA[=< doubleNaNtoSane80bitsByteArray time: 2ms]]>
-    </line>
-    <line>
-      <![CDATA[=> doubleNegative48000toSane80bitsByteArray]]>
     </line>
     <line>
       <![CDATA[09 0xc0]]>
@@ -5273,12 +5030,6 @@
       <![CDATA[00 0x00]]>
     </line>
     <line>
-      <![CDATA[=< doubleNegative48000toSane80bitsByteArray time: 1ms]]>
-    </line>
-    <line>
-      <![CDATA[=> doubleNegativeInfinityToSane80bitsByteArray]]>
-    </line>
-    <line>
       <![CDATA[09 0xff]]>
     </line>
     <line>
@@ -5307,12 +5058,6 @@
     </line>
     <line>
       <![CDATA[00 0x00]]>
-    </line>
-    <line>
-      <![CDATA[=< doubleNegativeInfinityToSane80bitsByteArray time: 2ms]]>
-    </line>
-    <line>
-      <![CDATA[=> doubleOneToSane80bitsByteArray]]>
     </line>
     <line>
       <![CDATA[09 0x3f]]>
@@ -5345,12 +5090,6 @@
       <![CDATA[00 0x00]]>
     </line>
     <line>
-      <![CDATA[=< doubleOneToSane80bitsByteArray time: 2ms]]>
-    </line>
-    <line>
-      <![CDATA[=> doubleTo11127toSane80bitsByteArray]]>
-    </line>
-    <line>
       <![CDATA[09 0x40]]>
     </line>
     <line>
@@ -5380,106 +5119,103 @@
     <line>
       <![CDATA[00 0x00]]>
     </line>
-    <line>
-      <![CDATA[=< doubleTo11127toSane80bitsByteArray time: 1ms]]>
-    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="2433" started-at="2012-02-12T19:54:13Z" finished-at="2012-02-12T19:54:15Z">
+  <suite name="Suite" duration-ms="374" started-at="2012-02-12T21:44:28Z" finished-at="2012-02-12T21:44:28Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="2433" started-at="2012-02-12T19:54:13Z" finished-at="2012-02-12T19:54:15Z">
-      <class name="org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits">
-        <test-method status="PASS" signature="nullConversion64bits0()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@58c16b18]" name="nullConversion64bits0" duration-ms="23" started-at="2012-02-12T19:54:14Z" description="null conversion 0 to double" finished-at="2012-02-12T19:54:14Z">
+    <test name="Test" duration-ms="374" started-at="2012-02-12T21:44:28Z" finished-at="2012-02-12T21:44:28Z">
+      <class name="org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray">
+        <test-method status="PASS" signature="double0point1toByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@6f25844f]" name="double0point1toByteArray" duration-ms="1" started-at="2012-02-12T21:44:28Z" description="double 0.1 to sane80bits byte array" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="nullConversion64bits0point1()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@58c16b18]" name="nullConversion64bits0point1" duration-ms="20" started-at="2012-02-12T19:54:14Z" description="null conversion 0.1 to double" finished-at="2012-02-12T19:54:14Z">
+        <test-method status="PASS" signature="double11127toSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@6f25844f]" name="double11127toSane80bitsByteArray" duration-ms="1" started-at="2012-02-12T21:44:28Z" description="double -11127 to sane80bits byte array" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="nullConversion64bits1()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@58c16b18]" name="nullConversion64bits1" duration-ms="42" started-at="2012-02-12T19:54:14Z" description="null conversion 1 to double" finished-at="2012-02-12T19:54:14Z">
+        <test-method status="PASS" signature="double1point5toByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@6f25844f]" name="double1point5toByteArray" duration-ms="1" started-at="2012-02-12T21:44:28Z" description="double 1.5 to sane80bits byte array" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="nullConversion64bits16()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@58c16b18]" name="nullConversion64bits16" duration-ms="18" started-at="2012-02-12T19:54:14Z" description="null conversion 16 to double" finished-at="2012-02-12T19:54:14Z">
+        <test-method status="PASS" signature="double2toByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@6f25844f]" name="double2toByteArray" duration-ms="1" started-at="2012-02-12T21:44:28Z" description="double 2 to sane80bits byte array" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="nullConversion64bits1to100()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@58c16b18]" name="nullConversion64bits1to100" duration-ms="544" started-at="2012-02-12T19:54:14Z" description="null conversion fro; 1 to 100 to double" finished-at="2012-02-12T19:54:14Z">
+        <test-method status="PASS" signature="double48000toSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@6f25844f]" name="double48000toSane80bitsByteArray" duration-ms="9" started-at="2012-02-12T21:44:28Z" description="double 48000 to sane80bits byte array" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="nullConversion64bits2()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@58c16b18]" name="nullConversion64bits2" duration-ms="25" started-at="2012-02-12T19:54:14Z" description="null conversion -22255 to double" finished-at="2012-02-12T19:54:14Z">
+        <test-method status="PASS" signature="double8000toByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@6f25844f]" name="double8000toByteArray" duration-ms="1" started-at="2012-02-12T21:44:28Z" description="double 8000 to sane80bits byte array" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="nullConversion64bits3()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@58c16b18]" name="nullConversion64bits3" duration-ms="19" started-at="2012-02-12T19:54:14Z" description="null conversion 3 to double" finished-at="2012-02-12T19:54:15Z">
+        <test-method status="PASS" signature="doubleHalfToSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@6f25844f]" name="doubleHalfToSane80bitsByteArray" duration-ms="1" started-at="2012-02-12T21:44:28Z" description="double 0.5 to sane80bits byte array" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="nullConversion64bits4()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@58c16b18]" name="nullConversion64bits4" duration-ms="8" started-at="2012-02-12T19:54:15Z" description="null conversion 4 to double" finished-at="2012-02-12T19:54:15Z">
+        <test-method status="PASS" signature="doubleInfinityToSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@6f25844f]" name="doubleInfinityToSane80bitsByteArray" duration-ms="14" started-at="2012-02-12T21:44:28Z" description="double poitive infinity to sane80bits byte array" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="nullConversion64bitsNaN()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@58c16b18]" name="nullConversion64bitsNaN" duration-ms="20" started-at="2012-02-12T19:54:15Z" description="null conversion NaN to double" finished-at="2012-02-12T19:54:15Z">
+        <test-method status="PASS" signature="doubleMinus1toByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@6f25844f]" name="doubleMinus1toByteArray" duration-ms="1" started-at="2012-02-12T21:44:28Z" description="double -1 to sane80bits byte array" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="nullConversion64bitsPI()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@58c16b18]" name="nullConversion64bitsPI" duration-ms="58" started-at="2012-02-12T19:54:15Z" description="null conversion PI to double" finished-at="2012-02-12T19:54:15Z">
+        <test-method status="PASS" signature="doubleNaNtoSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@6f25844f]" name="doubleNaNtoSane80bitsByteArray" duration-ms="1" started-at="2012-02-12T21:44:28Z" description="double NaN to sane80bits byte array" finished-at="2012-02-12T21:44:28Z">
+        </test-method>
+        <test-method status="PASS" signature="doubleNegative48000toSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@6f25844f]" name="doubleNegative48000toSane80bitsByteArray" duration-ms="1" started-at="2012-02-12T21:44:28Z" description="double 48000 to sane80bits byte array" finished-at="2012-02-12T21:44:28Z">
+        </test-method>
+        <test-method status="PASS" signature="doubleNegativeInfinityToSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@6f25844f]" name="doubleNegativeInfinityToSane80bitsByteArray" duration-ms="1" started-at="2012-02-12T21:44:28Z" description="double negative infinity to sane80bits byte array" finished-at="2012-02-12T21:44:28Z">
+        </test-method>
+        <test-method status="PASS" signature="doubleOneToSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@6f25844f]" name="doubleOneToSane80bitsByteArray" duration-ms="1" started-at="2012-02-12T21:44:28Z" description="double 1 to sane80bits byte array" finished-at="2012-02-12T21:44:28Z">
+        </test-method>
+        <test-method status="PASS" signature="doubleTo11127toSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@6f25844f]" name="doubleTo11127toSane80bitsByteArray" duration-ms="1" started-at="2012-02-12T21:44:28Z" description="double 11127 to sane80bits byte array" finished-at="2012-02-12T21:44:28Z">
         </test-method>
       </class>
-      <class name="org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray">
-        <test-method status="PASS" signature="double0point1toByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7c19f9d2]" name="double0point1toByteArray" duration-ms="40" started-at="2012-02-12T19:54:15Z" description="double 0.1 to sane80bits byte array" finished-at="2012-02-12T19:54:15Z">
+      <class name="org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits">
+        <test-method status="PASS" signature="nullConversion64bits0()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3af42ad0]" name="nullConversion64bits0" duration-ms="1" started-at="2012-02-12T21:44:28Z" description="null conversion 0 to double" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="double11127toSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7c19f9d2]" name="double11127toSane80bitsByteArray" duration-ms="25" started-at="2012-02-12T19:54:15Z" description="double -11127 to sane80bits byte array" finished-at="2012-02-12T19:54:15Z">
+        <test-method status="PASS" signature="nullConversion64bits0point1()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3af42ad0]" name="nullConversion64bits0point1" duration-ms="2" started-at="2012-02-12T21:44:28Z" description="null conversion 0.1 to double" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="double1point5toByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7c19f9d2]" name="double1point5toByteArray" duration-ms="22" started-at="2012-02-12T19:54:15Z" description="double 1.5 to sane80bits byte array" finished-at="2012-02-12T19:54:15Z">
+        <test-method status="PASS" signature="nullConversion64bits1()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3af42ad0]" name="nullConversion64bits1" duration-ms="2" started-at="2012-02-12T21:44:28Z" description="null conversion 1 to double" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="double2toByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7c19f9d2]" name="double2toByteArray" duration-ms="104" started-at="2012-02-12T19:54:15Z" description="double 2 to sane80bits byte array" finished-at="2012-02-12T19:54:15Z">
+        <test-method status="PASS" signature="nullConversion64bits16()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3af42ad0]" name="nullConversion64bits16" duration-ms="0" started-at="2012-02-12T21:44:28Z" description="null conversion 16 to double" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="double48000toSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7c19f9d2]" name="double48000toSane80bitsByteArray" duration-ms="19" started-at="2012-02-12T19:54:15Z" description="double 48000 to sane80bits byte array" finished-at="2012-02-12T19:54:15Z">
+        <test-method status="PASS" signature="nullConversion64bits1to100()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3af42ad0]" name="nullConversion64bits1to100" duration-ms="163" started-at="2012-02-12T21:44:28Z" description="null conversion fro; 1 to 100 to double" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="double8000toByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7c19f9d2]" name="double8000toByteArray" duration-ms="8" started-at="2012-02-12T19:54:15Z" description="double 8000 to sane80bits byte array" finished-at="2012-02-12T19:54:15Z">
+        <test-method status="PASS" signature="nullConversion64bits2()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3af42ad0]" name="nullConversion64bits2" duration-ms="0" started-at="2012-02-12T21:44:28Z" description="null conversion -22255 to double" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="doubleHalfToSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7c19f9d2]" name="doubleHalfToSane80bitsByteArray" duration-ms="27" started-at="2012-02-12T19:54:15Z" description="double 0.5 to sane80bits byte array" finished-at="2012-02-12T19:54:15Z">
+        <test-method status="PASS" signature="nullConversion64bits3()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3af42ad0]" name="nullConversion64bits3" duration-ms="1" started-at="2012-02-12T21:44:28Z" description="null conversion 3 to double" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="doubleInfinityToSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7c19f9d2]" name="doubleInfinityToSane80bitsByteArray" duration-ms="12" started-at="2012-02-12T19:54:15Z" description="double poitive infinity to sane80bits byte array" finished-at="2012-02-12T19:54:15Z">
+        <test-method status="PASS" signature="nullConversion64bits4()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3af42ad0]" name="nullConversion64bits4" duration-ms="0" started-at="2012-02-12T21:44:28Z" description="null conversion 4 to double" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="doubleMinus1toByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7c19f9d2]" name="doubleMinus1toByteArray" duration-ms="12" started-at="2012-02-12T19:54:15Z" description="double -1 to sane80bits byte array" finished-at="2012-02-12T19:54:15Z">
+        <test-method status="PASS" signature="nullConversion64bitsNaN()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3af42ad0]" name="nullConversion64bitsNaN" duration-ms="1" started-at="2012-02-12T21:44:28Z" description="null conversion NaN to double" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="doubleNaNtoSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7c19f9d2]" name="doubleNaNtoSane80bitsByteArray" duration-ms="12" started-at="2012-02-12T19:54:15Z" description="double NaN to sane80bits byte array" finished-at="2012-02-12T19:54:15Z">
-        </test-method>
-        <test-method status="PASS" signature="doubleNegative48000toSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7c19f9d2]" name="doubleNegative48000toSane80bitsByteArray" duration-ms="52" started-at="2012-02-12T19:54:15Z" description="double 48000 to sane80bits byte array" finished-at="2012-02-12T19:54:15Z">
-        </test-method>
-        <test-method status="PASS" signature="doubleNegativeInfinityToSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7c19f9d2]" name="doubleNegativeInfinityToSane80bitsByteArray" duration-ms="13" started-at="2012-02-12T19:54:15Z" description="double negative infinity to sane80bits byte array" finished-at="2012-02-12T19:54:15Z">
-        </test-method>
-        <test-method status="PASS" signature="doubleOneToSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7c19f9d2]" name="doubleOneToSane80bitsByteArray" duration-ms="12" started-at="2012-02-12T19:54:15Z" description="double 1 to sane80bits byte array" finished-at="2012-02-12T19:54:15Z">
-        </test-method>
-        <test-method status="PASS" signature="doubleTo11127toSane80bitsByteArray()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestDoubleToSane80BitsByteArray@7c19f9d2]" name="doubleTo11127toSane80bitsByteArray" duration-ms="9" started-at="2012-02-12T19:54:15Z" description="double 11127 to sane80bits byte array" finished-at="2012-02-12T19:54:15Z">
+        <test-method status="PASS" signature="nullConversion64bitsPI()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestNullConversion64bits@3af42ad0]" name="nullConversion64bitsPI" duration-ms="1" started-at="2012-02-12T21:44:28Z" description="null conversion PI to double" finished-at="2012-02-12T21:44:28Z">
         </test-method>
       </class>
       <class name="org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble">
-        <test-method status="PASS" signature="sane80bits2toSane80bitsDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@25e222e]" name="sane80bits2toSane80bitsDouble" duration-ms="493" started-at="2012-02-12T19:54:13Z" description="byte array sane80bits 2.0 to double" finished-at="2012-02-12T19:54:13Z">
+        <test-method status="PASS" signature="sane80bits2toSane80bitsDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@7426dbec]" name="sane80bits2toSane80bitsDouble" duration-ms="18" started-at="2012-02-12T21:44:28Z" description="byte array sane80bits 2.0 to double" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArayThreeQuarterToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@25e222e]" name="sane80bitsByteArayThreeQuarterToDouble" duration-ms="15" started-at="2012-02-12T19:54:13Z" description="byte array sane80bits 3/4 to double" finished-at="2012-02-12T19:54:13Z">
+        <test-method status="PASS" signature="sane80bitsByteArayThreeQuarterToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@7426dbec]" name="sane80bitsByteArayThreeQuarterToDouble" duration-ms="3" started-at="2012-02-12T21:44:28Z" description="byte array sane80bits 3/4 to double" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArray11127toBinaryString()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@25e222e]" name="sane80bitsByteArray11127toBinaryString" duration-ms="23" started-at="2012-02-12T19:54:13Z" description="byte array sane80bits 22255 to binary string" finished-at="2012-02-12T19:54:13Z">
+        <test-method status="PASS" signature="sane80bitsByteArray11127toBinaryString()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@7426dbec]" name="sane80bitsByteArray11127toBinaryString" duration-ms="5" started-at="2012-02-12T21:44:28Z" description="byte array sane80bits 22255 to binary string" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArray11127toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@25e222e]" name="sane80bitsByteArray11127toDouble" duration-ms="11" started-at="2012-02-12T19:54:13Z" description="byte array sane80bits 11127 to double" finished-at="2012-02-12T19:54:13Z">
+        <test-method status="PASS" signature="sane80bitsByteArray11127toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@7426dbec]" name="sane80bitsByteArray11127toDouble" duration-ms="2" started-at="2012-02-12T21:44:28Z" description="byte array sane80bits 11127 to double" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArray1ToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@25e222e]" name="sane80bitsByteArray1ToDouble" duration-ms="17" started-at="2012-02-12T19:54:13Z" description="byte array 80bits one to double" finished-at="2012-02-12T19:54:13Z">
+        <test-method status="PASS" signature="sane80bitsByteArray1ToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@7426dbec]" name="sane80bitsByteArray1ToDouble" duration-ms="17" started-at="2012-02-12T21:44:28Z" description="byte array 80bits one to double" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArray22255toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@25e222e]" name="sane80bitsByteArray22255toDouble" duration-ms="18" started-at="2012-02-12T19:54:13Z" description="byte array sane80bits 22255 to double" finished-at="2012-02-12T19:54:13Z">
+        <test-method status="PASS" signature="sane80bitsByteArray22255toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@7426dbec]" name="sane80bitsByteArray22255toDouble" duration-ms="3" started-at="2012-02-12T21:44:28Z" description="byte array sane80bits 22255 to double" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArray32000toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@25e222e]" name="sane80bitsByteArray32000toDouble" duration-ms="20" started-at="2012-02-12T19:54:13Z" description="byte array sane80bits 32000 to double" finished-at="2012-02-12T19:54:13Z">
+        <test-method status="PASS" signature="sane80bitsByteArray32000toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@7426dbec]" name="sane80bitsByteArray32000toDouble" duration-ms="3" started-at="2012-02-12T21:44:28Z" description="byte array sane80bits 32000 to double" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArray44100toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@25e222e]" name="sane80bitsByteArray44100toDouble" duration-ms="12" started-at="2012-02-12T19:54:13Z" description="byte array sane80bits 44100 to double" finished-at="2012-02-12T19:54:13Z">
+        <test-method status="PASS" signature="sane80bitsByteArray44100toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@7426dbec]" name="sane80bitsByteArray44100toDouble" duration-ms="8" started-at="2012-02-12T21:44:28Z" description="byte array sane80bits 44100 to double" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArray48000toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@25e222e]" name="sane80bitsByteArray48000toDouble" duration-ms="10" started-at="2012-02-12T19:54:13Z" description="byte array sane80bits 48000 to double" finished-at="2012-02-12T19:54:13Z">
+        <test-method status="PASS" signature="sane80bitsByteArray48000toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@7426dbec]" name="sane80bitsByteArray48000toDouble" duration-ms="3" started-at="2012-02-12T21:44:28Z" description="byte array sane80bits 48000 to double" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArray8000toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@25e222e]" name="sane80bitsByteArray8000toDouble" duration-ms="41" started-at="2012-02-12T19:54:13Z" description="byte array sane80bits 8000 to double" finished-at="2012-02-12T19:54:13Z">
+        <test-method status="PASS" signature="sane80bitsByteArray8000toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@7426dbec]" name="sane80bitsByteArray8000toDouble" duration-ms="2" started-at="2012-02-12T21:44:28Z" description="byte array sane80bits 8000 to double" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArrayHalftoDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@25e222e]" name="sane80bitsByteArrayHalftoDouble" duration-ms="67" started-at="2012-02-12T19:54:13Z" description="byte array sane80bits 0.5 to double" finished-at="2012-02-12T19:54:14Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayHalftoDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@7426dbec]" name="sane80bitsByteArrayHalftoDouble" duration-ms="2" started-at="2012-02-12T21:44:28Z" description="byte array sane80bits 0.5 to double" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArrayInfinityToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@25e222e]" name="sane80bitsByteArrayInfinityToDouble" duration-ms="19" started-at="2012-02-12T19:54:14Z" description="byte array 80bits infinity to double" finished-at="2012-02-12T19:54:14Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayInfinityToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@7426dbec]" name="sane80bitsByteArrayInfinityToDouble" duration-ms="2" started-at="2012-02-12T21:44:28Z" description="byte array 80bits infinity to double" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArrayMinus11127toBinaryString()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@25e222e]" name="sane80bitsByteArrayMinus11127toBinaryString" duration-ms="12" started-at="2012-02-12T19:54:14Z" description="byte array sane80bits 11127 to binary string" finished-at="2012-02-12T19:54:14Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayMinus11127toBinaryString()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@7426dbec]" name="sane80bitsByteArrayMinus11127toBinaryString" duration-ms="6" started-at="2012-02-12T21:44:28Z" description="byte array sane80bits 11127 to binary string" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArrayMinus1toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@25e222e]" name="sane80bitsByteArrayMinus1toDouble" duration-ms="37" started-at="2012-02-12T19:54:14Z" description="byte array sane80bits -1.0 to double" finished-at="2012-02-12T19:54:14Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayMinus1toDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@7426dbec]" name="sane80bitsByteArrayMinus1toDouble" duration-ms="2" started-at="2012-02-12T21:44:28Z" description="byte array sane80bits -1.0 to double" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArrayMinus22255()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@25e222e]" name="sane80bitsByteArrayMinus22255" duration-ms="14" started-at="2012-02-12T19:54:14Z" description="byte array sane80bits -22255 to double" finished-at="2012-02-12T19:54:14Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayMinus22255()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@7426dbec]" name="sane80bitsByteArrayMinus22255" duration-ms="3" started-at="2012-02-12T21:44:28Z" description="byte array sane80bits -22255 to double" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArrayMinusInfinityToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@25e222e]" name="sane80bitsByteArrayMinusInfinityToDouble" duration-ms="22" started-at="2012-02-12T19:54:14Z" description="byte array 80bits negative infintiy to double" finished-at="2012-02-12T19:54:14Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayMinusInfinityToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@7426dbec]" name="sane80bitsByteArrayMinusInfinityToDouble" duration-ms="7" started-at="2012-02-12T21:44:28Z" description="byte array 80bits negative infintiy to double" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArrayNegativeNotaNumberToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@25e222e]" name="sane80bitsByteArrayNegativeNotaNumberToDouble" duration-ms="94" started-at="2012-02-12T19:54:14Z" description="byte array 80bits negative NaN to double" finished-at="2012-02-12T19:54:14Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayNegativeNotaNumberToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@7426dbec]" name="sane80bitsByteArrayNegativeNotaNumberToDouble" duration-ms="4" started-at="2012-02-12T21:44:28Z" description="byte array 80bits negative NaN to double" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArrayNegativeZeroToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@25e222e]" name="sane80bitsByteArrayNegativeZeroToDouble" duration-ms="9" started-at="2012-02-12T19:54:14Z" description="byte array 80bits negative zero to double" finished-at="2012-02-12T19:54:14Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayNegativeZeroToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@7426dbec]" name="sane80bitsByteArrayNegativeZeroToDouble" duration-ms="6" started-at="2012-02-12T21:44:28Z" description="byte array 80bits negative zero to double" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArrayNotaNumberToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@25e222e]" name="sane80bitsByteArrayNotaNumberToDouble" duration-ms="10" started-at="2012-02-12T19:54:14Z" description="byte array 80bits NaN to double" finished-at="2012-02-12T19:54:14Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayNotaNumberToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@7426dbec]" name="sane80bitsByteArrayNotaNumberToDouble" duration-ms="3" started-at="2012-02-12T21:44:28Z" description="byte array 80bits NaN to double" finished-at="2012-02-12T21:44:28Z">
         </test-method>
-        <test-method status="PASS" signature="sane80bitsByteArrayPositiveZeroToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@25e222e]" name="sane80bitsByteArrayPositiveZeroToDouble" duration-ms="12" started-at="2012-02-12T19:54:14Z" description="byte array 80bits zero to double" finished-at="2012-02-12T19:54:14Z">
+        <test-method status="PASS" signature="sane80bitsByteArrayPositiveZeroToDouble()[pri:0, instance:org.sane80bits.converter.saneExtendedPrecision.tests.TestSane80bitsByteArrayToDouble@7426dbec]" name="sane80bitsByteArrayPositiveZeroToDouble" duration-ms="1" started-at="2012-02-12T21:44:28Z" description="byte array 80bits zero to double" finished-at="2012-02-12T21:44:28Z">
         </test-method>
       </class>
     </test>
