@@ -5,3 +5,6 @@ see http://amigan.1emu.net/reg/AIFF.txt
     AIFF: Audio Interchange File Format File
     extended:       80 bit IEEE Standard 754 floating point number (Standard
                     Apple Numeric Environment [SANE] data type Extended)
+
+ 
+To the extent possible under law, jdelouche@wanadoo.fr has waived all copyright and related or neighboring rights to extendedPrecisionSane80bits.
