@@ -3,7 +3,6 @@ package org.sane80bits.converter.saneExtendedPrecision.tests.aop;
 import org.jboss.aop.joinpoint.Invocation;
 import org.jboss.aop.joinpoint.MethodInvocation;
 import org.sane80bits.converter.saneExtendedPrecision.testAbstract.AbstractTestDefines;
-import org.testng.Reporter;
 
 public class TestSane80bitsInterceptor implements org.jboss.aop.advice.Interceptor {
 	public Object invoke(Invocation invocation) throws Throwable {
